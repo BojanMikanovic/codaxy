@@ -1,0 +1,3974 @@
+[
+   {
+      "id": 1,
+      "fullName": "Biddy Mills",
+      "city": "Eido",
+      "country": "Portugal",
+      "taxNumber": "5187076965",
+      "createDate": "9/26/2021",
+      "contactEmail": "bmills0@mapquest.com",
+      "contactPhone": "198-907-9554",
+      "defaultDiscount": "12%",
+      "unpaidAmountOfAllInvoices": 563,
+      "yearToDateAllInvoices": 9562,
+      "yearToDateTotalInvoicedAmount": 7854,
+      "lastYearTotalInvoicedAmount": 1289,
+      "turnover": [
+         {
+            "month": "Jun",
+            "amount": 15000
+         },
+
+         {
+            "month": "Jul",
+            "amount": 16000
+         },
+
+         {
+            "month": "Aug",
+            "amount": 17500
+         },
+
+         {
+            "month": "Sep",
+            "amount": 14200
+         },
+
+         {
+            "month": "Oct",
+            "amount": 14000
+         },
+
+         {
+            "month": "Nov",
+            "amount": 15200
+         }
+      ],
+      "invoices": [
+         {
+            "id": 1,
+            "invoiceNumber": 2345,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 8214,
+            "currency": "USD"
+         },
+         {
+            "id": 2,
+            "invoiceNumber": 5236,
+            "created": "07/11/22",
+            "paid": "yes",
+            "amount": 5642,
+            "currency": "USD"
+         },
+         {
+            "id": 3,
+            "invoiceNumber": 1245,
+            "created": "05/06/22",
+            "paid": "yes",
+            "amount": 314,
+            "currency": "USD"
+         },
+         {
+            "id": 4,
+            "invoiceNumber": 5689,
+            "created": "12/08/22",
+            "paid": "yes",
+            "amount": 2314,
+            "currency": "USD"
+         },
+         {
+            "id": 5,
+            "invoiceNumber": 1237,
+            "created": "04/06/22",
+            "paid": "no",
+            "amount": 1214,
+            "currency": "USD"
+         },
+         {
+            "id": 6,
+            "invoiceNumber": 9865,
+            "created": "28/10/22",
+            "paid": "yes",
+            "amount": 114,
+            "currency": "USD"
+         },
+         {
+            "id": 7,
+            "invoiceNumber": 2345,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 8214,
+            "currency": "USD"
+         },
+         {
+            "id": 8,
+            "invoiceNumber": 5236,
+            "created": "07/11/22",
+            "paid": "yes",
+            "amount": 5642,
+            "currency": "USD"
+         },
+         {
+            "id": 9,
+            "invoiceNumber": 1245,
+            "created": "05/06/22",
+            "paid": "yes",
+            "amount": 314,
+            "currency": "USD"
+         },
+         {
+            "id": 10,
+            "invoiceNumber": 5689,
+            "created": "12/08/22",
+            "paid": "yes",
+            "amount": 2314,
+            "currency": "USD"
+         },
+         {
+            "id": 11,
+            "invoiceNumber": 1237,
+            "created": "04/06/22",
+            "paid": "no",
+            "amount": 1214,
+            "currency": "USD"
+         },
+         {
+            "id": 12,
+            "invoiceNumber": 9865,
+            "created": "28/10/22",
+            "paid": "yes",
+            "amount": 114,
+            "currency": "USD"
+         }
+      ]
+   },
+   {
+      "id": 2,
+      "fullName": "Meryl Joutapaitis",
+      "city": "Phúc Yên",
+      "country": "Vietnam",
+      "taxNumber": "4240243440",
+      "createDate": "4/21/2022",
+      "contactEmail": "mjoutapaitis1@blogtalkradio.com",
+      "contactPhone": "278-572-7889",
+      "defaultDiscount": "8%",
+      "unpaidAmountOfAllInvoices": 56,
+      "yearToDateAllInvoices": 9874,
+      "yearToDateTotalInvoicedAmount": 1238,
+      "lastYearTotalInvoicedAmount": 4592,
+      "turnover": [
+         {
+            "month": "Jun",
+            "amount": 12000
+         },
+
+         {
+            "month": "Jul",
+            "amount": 14000
+         },
+
+         {
+            "month": "Aug",
+            "amount": 16000
+         },
+
+         {
+            "month": "Sep",
+            "amount": 15000
+         },
+
+         {
+            "month": "Oct",
+            "amount": 16000
+         },
+
+         {
+            "month": "Nov",
+            "amount": 17000
+         }
+      ],
+      "invoices": [
+         {
+            "invoiceNumber": 3012,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3013,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3014,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3015,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3016,
+            "created": "11/09/22",
+            "paid": "no",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3017,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3018,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3019,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3020,
+            "created": "11/09/22",
+            "paid": "no",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3021,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3022,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3023,
+            "created": "11/09/22",
+            "paid": "no",
+            "amount": 12314,
+            "currency": "USD"
+         }
+      ]
+   },
+   {
+      "id": 3,
+      "fullName": "Engracia Ridgewell",
+      "city": "Augusta",
+      "country": "United States",
+      "taxNumber": "3331523976",
+      "createDate": "9/15/2021",
+      "contactEmail": "eridgewell2@g.co",
+      "contactPhone": "706-993-6064",
+      "defaultDiscount": "16%",
+      "unpaidAmountOfAllInvoices": 749,
+      "yearToDateAllInvoices": 5649,
+      "yearToDateTotalInvoicedAmount": 8563,
+      "lastYearTotalInvoicedAmount": 1487,
+      "turnover": [
+         {
+            "month": "Jun",
+            "amount": 15000
+         },
+
+         {
+            "month": "Jul",
+            "amount": 15500
+         },
+
+         {
+            "month": "Aug",
+            "amount": 16000
+         },
+
+         {
+            "month": "Sep",
+            "amount": 16500
+         },
+
+         {
+            "month": "Oct",
+            "amount": 16600
+         },
+
+         {
+            "month": "Nov",
+            "amount": 17000
+         }
+      ],
+      "invoices": [
+         {
+            "invoiceNumber": 3024,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3025,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3026,
+            "created": "11/09/22",
+            "paid": "no",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3027,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3028,
+            "created": "11/09/22",
+            "paid": "no",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3029,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3030,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3031,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3032,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3033,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3034,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3035,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         }
+      ]
+   },
+   {
+      "id": 4,
+      "fullName": "Cal Colquitt",
+      "city": "Mooka",
+      "country": "Japan",
+      "taxNumber": "0399743057",
+      "createDate": "7/8/2021",
+      "contactEmail": "ccolquitt3@rambler.ru",
+      "contactPhone": "898-321-5289",
+      "defaultDiscount": "19%",
+      "unpaidAmountOfAllInvoices": 830,
+      "yearToDateAllInvoices": 4523,
+      "yearToDateTotalInvoicedAmount": 9865,
+      "lastYearTotalInvoicedAmount": 6537,
+      "turnover": [
+         {
+            "month": "Jun",
+            "amount": 13000
+         },
+
+         {
+            "month": "Jul",
+            "amount": 12000
+         },
+
+         {
+            "month": "Aug",
+            "amount": 11100
+         },
+
+         {
+            "month": "Sep",
+            "amount": 11500
+         },
+
+         {
+            "month": "Oct",
+            "amount": 11750
+         },
+
+         {
+            "month": "Nov",
+            "amount": 12000
+         }
+      ],
+      "invoices": [
+         {
+            "invoiceNumber": 3036,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3037,
+            "created": "11/09/22",
+            "paid": "no",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3038,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3039,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3040,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3041,
+            "created": "11/09/22",
+            "paid": "no",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3042,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3043,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3044,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3045,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3046,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3047,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         }
+      ]
+   },
+   {
+      "id": 5,
+      "fullName": "Andreas Izhakov",
+      "city": "Hangkou",
+      "country": "China",
+      "taxNumber": "5964167292",
+      "createDate": "2/25/2022",
+      "contactEmail": "aizhakov4@opensource.org",
+      "contactPhone": "814-615-5996",
+      "defaultDiscount": "13%",
+      "unpaidAmountOfAllInvoices": 421,
+      "yearToDateAllInvoices": 4631,
+      "yearToDateTotalInvoicedAmount": 3945,
+      "lastYearTotalInvoicedAmount": 1483,
+      "turnover": [
+         {
+            "month": "Jun",
+            "amount": 22000
+         },
+
+         {
+            "month": "Jul",
+            "amount": 26500
+         },
+
+         {
+            "month": "Aug",
+            "amount": 28000
+         },
+
+         {
+            "month": "Sep",
+            "amount": 29000
+         },
+
+         {
+            "month": "Oct",
+            "amount": 29100
+         },
+
+         {
+            "month": "Nov",
+            "amount": 39000
+         }
+      ],
+      "invoices": [
+         {
+            "invoiceNumber": 3048,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3049,
+            "created": "11/09/22",
+            "paid": "no",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3050,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3051,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3052,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3053,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3054,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3055,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3056,
+            "created": "11/09/22",
+            "paid": "no",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3057,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3058,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3059,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         }
+      ]
+   },
+   {
+      "id": 6,
+      "fullName": "Leighton Dowey",
+      "city": "Wentugaole",
+      "country": "China",
+      "taxNumber": "1651178208",
+      "createDate": "1/11/2022",
+      "contactEmail": "ldowey5@ning.com",
+      "contactPhone": "536-466-1069",
+      "defaultDiscount": "5%",
+      "unpaidAmountOfAllInvoices": 64,
+      "yearToDateAllInvoices": 1486,
+      "yearToDateTotalInvoicedAmount": 3695,
+      "lastYearTotalInvoicedAmount": 2586,
+      "turnover": [
+         {
+            "month": "Jun",
+            "amount": 22000
+         },
+
+         {
+            "month": "Jul",
+            "amount": 26500
+         },
+
+         {
+            "month": "Aug",
+            "amount": 28000
+         },
+
+         {
+            "month": "Sep",
+            "amount": 29000
+         },
+
+         {
+            "month": "Oct",
+            "amount": 29100
+         },
+
+         {
+            "month": "Nov",
+            "amount": 39000
+         }
+      ],
+      "invoices": [
+         {
+            "invoiceNumber": 3060,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3061,
+            "created": "11/09/22",
+            "paid": "no",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3062,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3063,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3064,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3065,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3066,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3067,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3068,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3069,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3070,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3071,
+            "created": "11/09/22",
+            "paid": "no",
+            "amount": 12314,
+            "currency": "USD"
+         }
+      ]
+   },
+   {
+      "id": 7,
+      "fullName": "Lois Adamkiewicz",
+      "city": "Melfort",
+      "country": "Canada",
+      "taxNumber": "8788103544",
+      "createDate": "6/10/2022",
+      "contactEmail": "ladamkiewicz6@jalbum.net",
+      "contactPhone": "237-192-0931",
+      "defaultDiscount": "6%",
+      "unpaidAmountOfAllInvoices": 742,
+      "yearToDateAllInvoices": 2558,
+      "yearToDateTotalInvoicedAmount": 3669,
+      "lastYearTotalInvoicedAmount": 1425,
+      "turnover": [
+         {
+            "month": "Jun",
+            "amount": 22000
+         },
+
+         {
+            "month": "Jul",
+            "amount": 26500
+         },
+
+         {
+            "month": "Aug",
+            "amount": 28000
+         },
+
+         {
+            "month": "Sep",
+            "amount": 29000
+         },
+
+         {
+            "month": "Oct",
+            "amount": 29100
+         },
+
+         {
+            "month": "Nov",
+            "amount": 39000
+         }
+      ],
+      "invoices": [
+         {
+            "invoiceNumber": 3072,
+            "created": "11/09/22",
+            "paid": "no",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3073,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3074,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3075,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3076,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3077,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3078,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3079,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3080,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3081,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3082,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3083,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         }
+      ]
+   },
+   {
+      "id": 8,
+      "fullName": "Ashlee Baldcock",
+      "city": "Shiling",
+      "country": "China",
+      "taxNumber": "3814451163",
+      "createDate": "4/16/2022",
+      "contactEmail": "abaldcock7@imageshack.us",
+      "contactPhone": "398-721-2519",
+      "defaultDiscount": "4%",
+      "unpaidAmountOfAllInvoices": 235,
+      "yearToDateAllInvoices": 5836,
+      "yearToDateTotalInvoicedAmount": 2847,
+      "lastYearTotalInvoicedAmount": 1739,
+      "turnover": [
+         {
+            "month": "Jun",
+            "amount": 22000
+         },
+
+         {
+            "month": "Jul",
+            "amount": 26500
+         },
+
+         {
+            "month": "Aug",
+            "amount": 28000
+         },
+
+         {
+            "month": "Sep",
+            "amount": 29000
+         },
+
+         {
+            "month": "Oct",
+            "amount": 29100
+         },
+
+         {
+            "month": "Nov",
+            "amount": 39000
+         }
+      ],
+      "invoices": [
+         {
+            "invoiceNumber": 3084,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3085,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3086,
+            "created": "11/09/22",
+            "paid": "no",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3087,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3088,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3089,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3090,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3091,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3092,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3093,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3094,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3095,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         }
+      ]
+   },
+   {
+      "id": 9,
+      "fullName": "Darleen Chaplin",
+      "city": "Nekrasovka",
+      "country": "Russia",
+      "taxNumber": "0871961768",
+      "createDate": "9/21/2021",
+      "contactEmail": "dchaplin8@comcast.net",
+      "contactPhone": "630-470-9956",
+      "defaultDiscount": "5%",
+      "unpaidAmountOfAllInvoices": 826,
+      "yearToDateAllInvoices": 2839,
+      "yearToDateTotalInvoicedAmount": 3928,
+      "lastYearTotalInvoicedAmount": 2817,
+      "turnover": [
+         {
+            "month": "Jun",
+            "amount": 22000
+         },
+
+         {
+            "month": "Jul",
+            "amount": 26500
+         },
+
+         {
+            "month": "Aug",
+            "amount": 28000
+         },
+
+         {
+            "month": "Sep",
+            "amount": 29000
+         },
+
+         {
+            "month": "Oct",
+            "amount": 29100
+         },
+
+         {
+            "month": "Nov",
+            "amount": 39000
+         }
+      ],
+      "invoices": [
+         {
+            "invoiceNumber": 3096,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3097,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3098,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3099,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3100,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3101,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3102,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3103,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3104,
+            "created": "11/09/22",
+            "paid": "no",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3105,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3106,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3107,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         }
+      ]
+   },
+   {
+      "id": 10,
+      "fullName": "Loy Southwell",
+      "city": "Middelburg",
+      "country": "South Africa",
+      "taxNumber": "9128165942",
+      "createDate": "8/27/2021",
+      "contactEmail": "lsouthwell9@examiner.com",
+      "contactPhone": "755-326-3497",
+      "defaultDiscount": "9%",
+      "unpaidAmountOfAllInvoices": 687,
+      "yearToDateAllInvoices": 1472,
+      "yearToDateTotalInvoicedAmount": 2581,
+      "lastYearTotalInvoicedAmount": 3692,
+      "turnover": [
+         {
+            "month": "Jun",
+            "amount": 22000
+         },
+
+         {
+            "month": "Jul",
+            "amount": 26500
+         },
+
+         {
+            "month": "Aug",
+            "amount": 28000
+         },
+
+         {
+            "month": "Sep",
+            "amount": 29000
+         },
+
+         {
+            "month": "Oct",
+            "amount": 29100
+         },
+
+         {
+            "month": "Nov",
+            "amount": 39000
+         }
+      ],
+      "invoices": [
+         {
+            "invoiceNumber": 3108,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3109,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3110,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3111,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3112,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3113,
+            "created": "11/09/22",
+            "paid": "no",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3114,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3115,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3116,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3117,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3118,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3119,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         }
+      ]
+   },
+   {
+      "id": 11,
+      "fullName": "Ruthi Bertouloume",
+      "city": "Melíti",
+      "country": "Greece",
+      "taxNumber": "7240950204",
+      "createDate": "10/11/2021",
+      "contactEmail": "rbertouloumea@illinois.edu",
+      "contactPhone": "272-363-7884",
+      "defaultDiscount": "5%",
+      "unpaidAmountOfAllInvoices": 984,
+      "yearToDateAllInvoices": 9635,
+      "yearToDateTotalInvoicedAmount": 8524,
+      "lastYearTotalInvoicedAmount": 7412,
+      "turnover": [
+         {
+            "month": "Jun",
+            "amount": 22000
+         },
+
+         {
+            "month": "Jul",
+            "amount": 26500
+         },
+
+         {
+            "month": "Aug",
+            "amount": 28000
+         },
+
+         {
+            "month": "Sep",
+            "amount": 29000
+         },
+
+         {
+            "month": "Oct",
+            "amount": 29100
+         },
+
+         {
+            "month": "Nov",
+            "amount": 39000
+         }
+      ],
+      "invoices": [
+         {
+            "invoiceNumber": 3120,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3121,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3122,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3123,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3124,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3125,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3126,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3127,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3128,
+            "created": "11/09/22",
+            "paid": "no",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3129,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3130,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3131,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         }
+      ]
+   },
+   {
+      "id": 12,
+      "fullName": "Barbara-anne Clewett",
+      "city": "Longtan",
+      "country": "China",
+      "taxNumber": "9129503620",
+      "createDate": "1/9/2022",
+      "contactEmail": "bclewettb@webnode.com",
+      "contactPhone": "688-335-3268",
+      "defaultDiscount": "10%",
+      "unpaidAmountOfAllInvoices": 852,
+      "yearToDateAllInvoices": 9635,
+      "yearToDateTotalInvoicedAmount": 7541,
+      "lastYearTotalInvoicedAmount": 8653,
+      "turnover": [
+         {
+            "month": "Jun",
+            "amount": 22000
+         },
+
+         {
+            "month": "Jul",
+            "amount": 26500
+         },
+
+         {
+            "month": "Aug",
+            "amount": 28000
+         },
+
+         {
+            "month": "Sep",
+            "amount": 29000
+         },
+
+         {
+            "month": "Oct",
+            "amount": 29100
+         },
+
+         {
+            "month": "Nov",
+            "amount": 39000
+         }
+      ],
+      "invoices": [
+         {
+            "invoiceNumber": 3132,
+            "created": "11/09/22",
+            "paid": "no",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3133,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3134,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3135,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3136,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3137,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3138,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3139,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3140,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3141,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3142,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3143,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         }
+      ]
+   },
+   {
+      "id": 13,
+      "fullName": "Renaud Ravilious",
+      "city": "Lishui",
+      "country": "China",
+      "taxNumber": "8769203512",
+      "createDate": "11/11/2021",
+      "contactEmail": "rraviliousc@youku.com",
+      "contactPhone": "729-947-0948",
+      "defaultDiscount": "6%",
+      "unpaidAmountOfAllInvoices": 591,
+      "yearToDateAllInvoices": 7542,
+      "yearToDateTotalInvoicedAmount": 3568,
+      "lastYearTotalInvoicedAmount": 9562,
+      "turnover": [
+         {
+            "month": "Jun",
+            "amount": 22000
+         },
+
+         {
+            "month": "Jul",
+            "amount": 26500
+         },
+
+         {
+            "month": "Aug",
+            "amount": 28000
+         },
+
+         {
+            "month": "Sep",
+            "amount": 29000
+         },
+
+         {
+            "month": "Oct",
+            "amount": 29100
+         },
+
+         {
+            "month": "Nov",
+            "amount": 39000
+         }
+      ],
+      "invoices": [
+         {
+            "invoiceNumber": 3144,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3145,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3146,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3147,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3148,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3149,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3150,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3151,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3152,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3153,
+            "created": "11/09/22",
+            "paid": "no",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3154,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3155,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         }
+      ]
+   },
+   {
+      "id": 14,
+      "fullName": "Dianne Clemenzo",
+      "city": "Nor Gyugh",
+      "country": "Armenia",
+      "taxNumber": "3442828325",
+      "createDate": "1/19/2022",
+      "contactEmail": "dclemenzod@theguardian.com",
+      "contactPhone": "545-217-0049",
+      "defaultDiscount": "12%",
+      "unpaidAmountOfAllInvoices": 862,
+      "yearToDateAllInvoices": 8653,
+      "yearToDateTotalInvoicedAmount": 7542,
+      "lastYearTotalInvoicedAmount": 2659,
+      "turnover": [
+         {
+            "month": "Jun",
+            "amount": 22000
+         },
+
+         {
+            "month": "Jul",
+            "amount": 26500
+         },
+
+         {
+            "month": "Aug",
+            "amount": 28000
+         },
+
+         {
+            "month": "Sep",
+            "amount": 29000
+         },
+
+         {
+            "month": "Oct",
+            "amount": 29100
+         },
+
+         {
+            "month": "Nov",
+            "amount": 39000
+         }
+      ],
+      "invoices": [
+         {
+            "invoiceNumber": 3156,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3157,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3158,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3159,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3160,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3161,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3162,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3163,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3164,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3165,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3166,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3167,
+            "created": "11/09/22",
+            "paid": "no",
+            "amount": 12314,
+            "currency": "USD"
+         }
+      ]
+   },
+   {
+      "id": 15,
+      "fullName": "Raimondo Barnewille",
+      "city": "Yāsūf",
+      "country": "Palestinian Territory",
+      "taxNumber": "0254299148",
+      "createDate": "9/13/2022",
+      "contactEmail": "rbarnewillee@engadget.com",
+      "contactPhone": "131-383-6501",
+      "defaultDiscount": "13%",
+      "unpaidAmountOfAllInvoices": 56,
+      "yearToDateAllInvoices": 2324,
+      "yearToDateTotalInvoicedAmount": 4598,
+      "lastYearTotalInvoicedAmount": 2378,
+      "turnover": [
+         {
+            "month": "Jun",
+            "amount": 22000
+         },
+
+         {
+            "month": "Jul",
+            "amount": 26500
+         },
+
+         {
+            "month": "Aug",
+            "amount": 28000
+         },
+
+         {
+            "month": "Sep",
+            "amount": 29000
+         },
+
+         {
+            "month": "Oct",
+            "amount": 29100
+         },
+
+         {
+            "month": "Nov",
+            "amount": 39000
+         }
+      ],
+      "invoices": [
+         {
+            "invoiceNumber": 3168,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3169,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3170,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3171,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3172,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3173,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3174,
+            "created": "11/09/22",
+            "paid": "no",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3175,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3176,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3177,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3178,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3179,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         }
+      ]
+   },
+   {
+      "id": 16,
+      "fullName": "Karlik Summerson",
+      "city": "Shuakhevi",
+      "country": "Georgia",
+      "taxNumber": "3989633430",
+      "createDate": "8/26/2022",
+      "contactEmail": "ksummersonf@intel.com",
+      "contactPhone": "660-391-4449",
+      "defaultDiscount": "14%",
+      "unpaidAmountOfAllInvoices": 89,
+      "yearToDateAllInvoices": 5665,
+      "yearToDateTotalInvoicedAmount": 4545,
+      "lastYearTotalInvoicedAmount": 2356,
+      "turnover": [
+         {
+            "month": "Jun",
+            "amount": 22000
+         },
+
+         {
+            "month": "Jul",
+            "amount": 26500
+         },
+
+         {
+            "month": "Aug",
+            "amount": 28000
+         },
+
+         {
+            "month": "Sep",
+            "amount": 29000
+         },
+
+         {
+            "month": "Oct",
+            "amount": 29100
+         },
+
+         {
+            "month": "Nov",
+            "amount": 39000
+         }
+      ],
+      "invoices": [
+         {
+            "invoiceNumber": 3180,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3181,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3182,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3183,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3184,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3185,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3186,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3187,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3188,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3189,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3190,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3191,
+            "created": "11/09/22",
+            "paid": "no",
+            "amount": 12314,
+            "currency": "USD"
+         }
+      ]
+   },
+   {
+      "id": 17,
+      "fullName": "Alma Kiffe",
+      "city": "Quatre Bornes",
+      "country": "Mauritius",
+      "taxNumber": "5782241705",
+      "createDate": "9/7/2021",
+      "contactEmail": "akiffeg@java.com",
+      "contactPhone": "317-175-8748",
+      "defaultDiscount": "6%",
+      "unpaidAmountOfAllInvoices": 231,
+      "yearToDateAllInvoices": 4589,
+      "yearToDateTotalInvoicedAmount": 5678,
+      "lastYearTotalInvoicedAmount": 2189,
+      "turnover": [
+         {
+            "month": "Jun",
+            "amount": 22000
+         },
+
+         {
+            "month": "Jul",
+            "amount": 26500
+         },
+
+         {
+            "month": "Aug",
+            "amount": 28000
+         },
+
+         {
+            "month": "Sep",
+            "amount": 29000
+         },
+
+         {
+            "month": "Oct",
+            "amount": 29100
+         },
+
+         {
+            "month": "Nov",
+            "amount": 39000
+         }
+      ],
+      "invoices": [
+         {
+            "invoiceNumber": 3192,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3193,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3194,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3195,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3196,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3197,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3198,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3199,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3200,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3201,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3202,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3203,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         }
+      ]
+   },
+   {
+      "id": 18,
+      "fullName": "Elsa Wincom",
+      "city": "Couto",
+      "country": "Portugal",
+      "taxNumber": "9424859546",
+      "createDate": "10/9/2022",
+      "contactEmail": "ewincomh@cnn.com",
+      "contactPhone": "324-737-4269",
+      "defaultDiscount": "17%",
+      "unpaidAmountOfAllInvoices": 58,
+      "yearToDateAllInvoices": 6598,
+      "yearToDateTotalInvoicedAmount": 4523,
+      "lastYearTotalInvoicedAmount": 5632,
+      "turnover": [
+         {
+            "month": "Jun",
+            "amount": 22000
+         },
+
+         {
+            "month": "Jul",
+            "amount": 26500
+         },
+
+         {
+            "month": "Aug",
+            "amount": 28000
+         },
+
+         {
+            "month": "Sep",
+            "amount": 29000
+         },
+
+         {
+            "month": "Oct",
+            "amount": 29100
+         },
+
+         {
+            "month": "Nov",
+            "amount": 39000
+         }
+      ],
+      "invoices": [
+         {
+            "invoiceNumber": 3204,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3205,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3206,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3207,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3208,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3209,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3210,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3211,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3212,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3213,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3214,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3215,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         }
+      ]
+   },
+   {
+      "id": 19,
+      "fullName": "Dallis Shambrook",
+      "city": "Bestala",
+      "country": "Indonesia",
+      "taxNumber": "8400857976",
+      "createDate": "7/19/2021",
+      "contactEmail": "dshambrooki@paypal.com",
+      "contactPhone": "687-653-8845",
+      "defaultDiscount": "11%",
+      "unpaidAmountOfAllInvoices": 354,
+      "yearToDateAllInvoices": 4821,
+      "yearToDateTotalInvoicedAmount": 5346,
+      "lastYearTotalInvoicedAmount": 1253,
+      "turnover": [
+         {
+            "month": "Jun",
+            "amount": 22000
+         },
+
+         {
+            "month": "Jul",
+            "amount": 26500
+         },
+
+         {
+            "month": "Aug",
+            "amount": 28000
+         },
+
+         {
+            "month": "Sep",
+            "amount": 29000
+         },
+
+         {
+            "month": "Oct",
+            "amount": 29100
+         },
+
+         {
+            "month": "Nov",
+            "amount": 39000
+         }
+      ],
+      "invoices": [
+         {
+            "invoiceNumber": 3216,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3217,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3218,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3219,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3220,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3221,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3222,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3223,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3224,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3225,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3226,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3227,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         }
+      ]
+   },
+   {
+      "id": 20,
+      "fullName": "Amber Lewson",
+      "city": "Naranjo",
+      "country": "Costa Rica",
+      "taxNumber": "2393089845",
+      "createDate": "5/15/2022",
+      "contactEmail": "alewsonj@blinklist.com",
+      "contactPhone": "715-860-8964",
+      "defaultDiscount": "15%",
+      "unpaidAmountOfAllInvoices": 689,
+      "yearToDateAllInvoices": 7542,
+      "yearToDateTotalInvoicedAmount": 5465,
+      "lastYearTotalInvoicedAmount": 9854,
+      "turnover": [
+         {
+            "month": "Jun",
+            "amount": 22000
+         },
+
+         {
+            "month": "Jul",
+            "amount": 26500
+         },
+
+         {
+            "month": "Aug",
+            "amount": 28000
+         },
+
+         {
+            "month": "Sep",
+            "amount": 29000
+         },
+
+         {
+            "month": "Oct",
+            "amount": 29100
+         },
+
+         {
+            "month": "Nov",
+            "amount": 39000
+         }
+      ],
+      "invoices": [
+         {
+            "invoiceNumber": 3228,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3229,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3230,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3231,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3232,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3233,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3234,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3235,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3236,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3237,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3238,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3239,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         }
+      ]
+   },
+   {
+      "id": 21,
+      "fullName": "Kevon Darnborough",
+      "city": "Sabnie",
+      "country": "Poland",
+      "taxNumber": "0116015691",
+      "createDate": "10/19/2021",
+      "contactEmail": "kdarnboroughk@live.com",
+      "contactPhone": "262-835-9958",
+      "defaultDiscount": "20%",
+      "unpaidAmountOfAllInvoices": 785,
+      "yearToDateAllInvoices": 5424,
+      "yearToDateTotalInvoicedAmount": 8965,
+      "lastYearTotalInvoicedAmount": 3256,
+      "turnover": [
+         {
+            "month": "Jun",
+            "amount": 22000
+         },
+
+         {
+            "month": "Jul",
+            "amount": 26500
+         },
+
+         {
+            "month": "Aug",
+            "amount": 28000
+         },
+
+         {
+            "month": "Sep",
+            "amount": 29000
+         },
+
+         {
+            "month": "Oct",
+            "amount": 29100
+         },
+
+         {
+            "month": "Nov",
+            "amount": 39000
+         }
+      ],
+      "invoices": [
+         {
+            "invoiceNumber": 3240,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3241,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3242,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3243,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3244,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3245,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3246,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3247,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3248,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3249,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3250,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3251,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         }
+      ]
+   },
+   {
+      "id": 22,
+      "fullName": "Nester Gazzard",
+      "city": "Yelat’ma",
+      "country": "Russia",
+      "taxNumber": "9526789741",
+      "createDate": "8/20/2021",
+      "contactEmail": "ngazzardl@studiopress.com",
+      "contactPhone": "938-650-5994",
+      "defaultDiscount": "15%",
+      "unpaidAmountOfAllInvoices": 821,
+      "yearToDateAllInvoices": 6534,
+      "yearToDateTotalInvoicedAmount": 4523,
+      "lastYearTotalInvoicedAmount": 5687,
+      "turnover": [
+         {
+            "month": "Jun",
+            "amount": 22000
+         },
+
+         {
+            "month": "Jul",
+            "amount": 26500
+         },
+
+         {
+            "month": "Aug",
+            "amount": 28000
+         },
+
+         {
+            "month": "Sep",
+            "amount": 29000
+         },
+
+         {
+            "month": "Oct",
+            "amount": 29100
+         },
+
+         {
+            "month": "Nov",
+            "amount": 39000
+         }
+      ],
+      "invoices": [
+         {
+            "invoiceNumber": 3252,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3253,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3254,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3255,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3256,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3257,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3258,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3259,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3260,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3261,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3262,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3263,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         }
+      ]
+   },
+   {
+      "id": 23,
+      "fullName": "Elaine Grazier",
+      "city": "Kampene",
+      "country": "Democratic Republic of the Congo",
+      "taxNumber": "1454016949",
+      "createDate": "12/3/2021",
+      "contactEmail": "egrazierm@gov.uk",
+      "contactPhone": "244-422-9103",
+      "defaultDiscount": "14%",
+      "unpaidAmountOfAllInvoices": 324,
+      "yearToDateAllInvoices": 3512,
+      "yearToDateTotalInvoicedAmount": 5496,
+      "lastYearTotalInvoicedAmount": 2323,
+      "turnover": [
+         {
+            "month": "Jun",
+            "amount": 22000
+         },
+
+         {
+            "month": "Jul",
+            "amount": 26500
+         },
+
+         {
+            "month": "Aug",
+            "amount": 28000
+         },
+
+         {
+            "month": "Sep",
+            "amount": 29000
+         },
+
+         {
+            "month": "Oct",
+            "amount": 29100
+         },
+
+         {
+            "month": "Nov",
+            "amount": 39000
+         }
+      ],
+      "invoices": [
+         {
+            "invoiceNumber": 3264,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3265,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3266,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3267,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3268,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3269,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3270,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3271,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3272,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3273,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3274,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3275,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         }
+      ]
+   },
+   {
+      "id": 24,
+      "fullName": "Lurline Keohane",
+      "city": "Strunino",
+      "country": "Russia",
+      "taxNumber": "3570051447",
+      "createDate": "3/24/2022",
+      "contactEmail": "lkeohanen@rakuten.co.jp",
+      "contactPhone": "968-357-9513",
+      "defaultDiscount": "6%",
+      "unpaidAmountOfAllInvoices": 360,
+      "yearToDateAllInvoices": 3245,
+      "yearToDateTotalInvoicedAmount": 5632,
+      "lastYearTotalInvoicedAmount": 4521,
+      "turnover": [
+         {
+            "month": "Jun",
+            "amount": 22000
+         },
+
+         {
+            "month": "Jul",
+            "amount": 26500
+         },
+
+         {
+            "month": "Aug",
+            "amount": 28000
+         },
+
+         {
+            "month": "Sep",
+            "amount": 29000
+         },
+
+         {
+            "month": "Oct",
+            "amount": 29100
+         },
+
+         {
+            "month": "Nov",
+            "amount": 39000
+         }
+      ],
+      "invoices": [
+         {
+            "invoiceNumber": 3276,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3277,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3278,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3279,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3280,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3281,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3282,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3283,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3284,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3285,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3286,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3287,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         }
+      ]
+   },
+   {
+      "id": 25,
+      "fullName": "Berkley Gerger",
+      "city": "Bohus",
+      "country": "Sweden",
+      "taxNumber": "1673879667",
+      "createDate": "10/24/2021",
+      "contactEmail": "bgergero@meetup.com",
+      "contactPhone": "430-809-9971",
+      "defaultDiscount": "8%",
+      "unpaidAmountOfAllInvoices": 562,
+      "yearToDateAllInvoices": 8954,
+      "yearToDateTotalInvoicedAmount": 6541,
+      "lastYearTotalInvoicedAmount": 7532,
+      "turnover": [
+         {
+            "month": "Jun",
+            "amount": 22000
+         },
+
+         {
+            "month": "Jul",
+            "amount": 26500
+         },
+
+         {
+            "month": "Aug",
+            "amount": 28000
+         },
+
+         {
+            "month": "Sep",
+            "amount": 29000
+         },
+
+         {
+            "month": "Oct",
+            "amount": 29100
+         },
+
+         {
+            "month": "Nov",
+            "amount": 39000
+         }
+      ],
+      "invoices": [
+         {
+            "invoiceNumber": 3288,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3289,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3290,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3291,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3292,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3293,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3294,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3295,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3296,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3297,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3298,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3299,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         }
+      ]
+   },
+   {
+      "id": 26,
+      "fullName": "Garry Praill",
+      "city": "Frýdek-Místek",
+      "country": "Czech Republic",
+      "taxNumber": "6320531894",
+      "createDate": "11/10/2021",
+      "contactEmail": "gpraillp@toplist.cz",
+      "contactPhone": "408-963-6292",
+      "defaultDiscount": "11%",
+      "unpaidAmountOfAllInvoices": 235,
+      "yearToDateAllInvoices": 3652,
+      "yearToDateTotalInvoicedAmount": 1425,
+      "lastYearTotalInvoicedAmount": 3232,
+      "turnover": [
+         {
+            "month": "Jun",
+            "amount": 22000
+         },
+
+         {
+            "month": "Jul",
+            "amount": 26500
+         },
+
+         {
+            "month": "Aug",
+            "amount": 28000
+         },
+
+         {
+            "month": "Sep",
+            "amount": 29000
+         },
+
+         {
+            "month": "Oct",
+            "amount": 29100
+         },
+
+         {
+            "month": "Nov",
+            "amount": 39000
+         }
+      ],
+      "invoices": [
+         {
+            "invoiceNumber": 3300,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3301,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3302,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3303,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3304,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3305,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3306,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3307,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3308,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3309,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3310,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3311,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         }
+      ]
+   },
+   {
+      "id": 27,
+      "fullName": "Lindy Pyffe",
+      "city": "Decatur",
+      "country": "United States",
+      "taxNumber": "8728121511",
+      "createDate": "1/20/2022",
+      "contactEmail": "lpyffeq@digg.com",
+      "contactPhone": "229-956-0002",
+      "defaultDiscount": "6%",
+      "unpaidAmountOfAllInvoices": 521,
+      "yearToDateAllInvoices": 8923,
+      "yearToDateTotalInvoicedAmount": 5678,
+      "lastYearTotalInvoicedAmount": 3365,
+      "turnover": [
+         {
+            "month": "Jun",
+            "amount": 22000
+         },
+
+         {
+            "month": "Jul",
+            "amount": 26500
+         },
+
+         {
+            "month": "Aug",
+            "amount": 28000
+         },
+
+         {
+            "month": "Sep",
+            "amount": 29000
+         },
+
+         {
+            "month": "Oct",
+            "amount": 29100
+         },
+
+         {
+            "month": "Nov",
+            "amount": 39000
+         }
+      ],
+      "invoices": [
+         {
+            "invoiceNumber": 3312,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3313,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3314,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3315,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3316,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3317,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3318,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3319,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3320,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3321,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3322,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3323,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         }
+      ]
+   },
+   {
+      "id": 28,
+      "fullName": "Brynna Hanshaw",
+      "city": "Lagos da Beira",
+      "country": "Portugal",
+      "taxNumber": "0866908161",
+      "createDate": "5/23/2021",
+      "contactEmail": "bhanshawr@51.la",
+      "contactPhone": "568-188-9090",
+      "defaultDiscount": "17%",
+      "unpaidAmountOfAllInvoices": 189,
+      "yearToDateAllInvoices": 6325,
+      "yearToDateTotalInvoicedAmount": 7456,
+      "lastYearTotalInvoicedAmount": 8521,
+      "turnover": [
+         {
+            "month": "Jun",
+            "amount": 22000
+         },
+
+         {
+            "month": "Jul",
+            "amount": 26500
+         },
+
+         {
+            "month": "Aug",
+            "amount": 28000
+         },
+
+         {
+            "month": "Sep",
+            "amount": 29000
+         },
+
+         {
+            "month": "Oct",
+            "amount": 29100
+         },
+
+         {
+            "month": "Nov",
+            "amount": 39000
+         }
+      ],
+      "invoices": [
+         {
+            "invoiceNumber": 3324,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3325,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3326,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3327,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3328,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3329,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3330,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3331,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3332,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3333,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3334,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3335,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         }
+      ]
+   },
+   {
+      "id": 29,
+      "fullName": "Nicholle Crowter",
+      "city": "Cerro",
+      "country": "Cuba",
+      "taxNumber": "4942829283",
+      "createDate": "6/11/2022",
+      "contactEmail": "ncrowters@bluehost.com",
+      "contactPhone": "286-529-6679",
+      "defaultDiscount": "17%",
+      "unpaidAmountOfAllInvoices": 632,
+      "yearToDateAllInvoices": 1256,
+      "yearToDateTotalInvoicedAmount": 5632,
+      "lastYearTotalInvoicedAmount": 4256,
+      "turnover": [
+         {
+            "month": "Jun",
+            "amount": 22000
+         },
+
+         {
+            "month": "Jul",
+            "amount": 26500
+         },
+
+         {
+            "month": "Aug",
+            "amount": 28000
+         },
+
+         {
+            "month": "Sep",
+            "amount": 29000
+         },
+
+         {
+            "month": "Oct",
+            "amount": 29100
+         },
+
+         {
+            "month": "Nov",
+            "amount": 39000
+         }
+      ],
+      "invoices": [
+         {
+            "invoiceNumber": 3336,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3337,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3338,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3339,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3340,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3341,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3342,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3343,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3344,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3345,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3346,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3347,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         }
+      ]
+   },
+   {
+      "id": 30,
+      "fullName": "Nora Emby",
+      "city": "Ake-Eze",
+      "country": "Nigeria",
+      "taxNumber": "9976800908",
+      "createDate": "12/27/2021",
+      "contactEmail": "nembyt@friendfeed.com",
+      "contactPhone": "248-838-4226",
+      "defaultDiscount": "18%",
+      "unpaidAmountOfAllInvoices": 854,
+      "yearToDateAllInvoices": 6532,
+      "yearToDateTotalInvoicedAmount": 4328,
+      "lastYearTotalInvoicedAmount": 5500,
+      "turnover": [
+         {
+            "month": "Jun",
+            "amount": 22000
+         },
+
+         {
+            "month": "Jul",
+            "amount": 26500
+         },
+
+         {
+            "month": "Aug",
+            "amount": 28000
+         },
+
+         {
+            "month": "Sep",
+            "amount": 29000
+         },
+
+         {
+            "month": "Oct",
+            "amount": 29100
+         },
+
+         {
+            "month": "Nov",
+            "amount": 39000
+         }
+      ],
+      "invoices": [
+         {
+            "invoiceNumber": 3348,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3349,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3350,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3351,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3352,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3353,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3354,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3355,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3356,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3357,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3358,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         },
+         {
+            "invoiceNumber": 3359,
+            "created": "11/09/22",
+            "paid": "yes",
+            "amount": 12314,
+            "currency": "USD"
+         }
+      ]
+   }
+]
