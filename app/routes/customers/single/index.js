@@ -68,7 +68,7 @@ export default (
             <div class="grid grid-cols-4 p-8 gap-8 ml-2 mt-2" style="grid-template-rows: auto; width: 1100px">
                <KPI
                   title="Unpaid Amount"
-                  value:bind="$page.customer.unpaidAmountOfAllInvoices"
+                  value:bind="$page.unpaidAmountOfAllInvoices"
                   unit="USD"
                   icon="credit-card"
                   iconClass="bg-red-500 text-white"
@@ -76,7 +76,7 @@ export default (
                />
                <KPI
                   title="YTD Paid Amount"
-                  value:bind="$page.customer.yearToDateAllInvoices"
+                  value:bind="$page.yearToDatePaidInvoices"
                   unit="USD"
                   icon="credit-card"
                   iconClass="bg-blue-300 text-white"
@@ -84,7 +84,7 @@ export default (
                />
                <KPI
                   title="YTD Total Amount"
-                  value:bind="$page.customer.yearToDateTotalInvoicedAmount"
+                  value:bind="$page.yearToDateTotalInvoicedAmount"
                   unit="USD"
                   icon="credit-card"
                   iconClass="bg-blue-500 text-white"
@@ -92,7 +92,7 @@ export default (
                />
                <KPI
                   title="Last Year Total Amount"
-                  value:bind="$page.customer.lastYearTotalInvoicedAmount"
+                  value:bind="$page.lastYearTotalAmount"
                   unit="USD"
                   icon="credit-card"
                   iconClass="bg-blue-700 text-white"

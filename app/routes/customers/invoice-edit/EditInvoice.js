@@ -10,7 +10,6 @@ export default () => (
                href="~/customers"
                class=" w-10 h-10 border rounded-full top-[-20px] left-4 bg-white flex justify-center items-center z-10"
             >
-               {' '}
                <Icon name="arrow-left" />
             </Link>
          </div>

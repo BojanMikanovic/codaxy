@@ -14,38 +14,40 @@ export default {
 
       this.store.init('$page.addInvoice', {});
 
-      this.loadCustomer();
-      /* this.loadKPI(); */
+      this.fetchCustomer().then(() => this.fetchKPI());
    },
 
-   loadCustomer() {
+   fetchCustomer() {
       var id = this.store.get('$route.id');
 
       var promise = GET(`customers/${id}`).then((data) => {
          this.store.set('$page.customer', data);
       });
       this.setLoadingIndicator(promise);
+      return promise;
    },
 
-   /* async loadKPI() {
-      let { customer } = await this.store.get('$page');
-      let { invoices } = await this.store.get('$page.customer');
-
-      if (customer != 'undefined' && invoices != 'undefined') {
-         let yearToDatePaidInvoices = customer.invoices
-            .filter((i) => i.paid === 'yes')
-            .reduce((acc, p) => acc + p.amount, 0);
-         this.store.set('$page.yearToDatePaidInvoices', yearToDatePaidInvoices);
-
-         let unpaidAmountOfAllInvoices = customer.invoices
-            .filter((i) => i.paid === 'no')
-            .reduce((acc, u) => acc + u.amount, 0);
-         this.store.set('$page.unpaidAmountOfAllInvoices', unpaidAmountOfAllInvoices);
-
-         let yearToDateTotalInvoicedAmount = customer.invoices.reduce((acc, a) => acc + a.amount, 0);
-         this.store.set('$page.yearToDateTotalInvoicedAmount', yearToDateTotalInvoicedAmount);
+   fetchKPI() {
+      let { customer } = this.store.get('$page');
+      if (customer === 'undefined') {
+         return;
       }
-   }, */
+      let yearToDatePaidInvoices = customer.invoices
+         .filter((i) => i.paid === 'yes')
+         .reduce((acc, p) => acc + p.amount, 0);
+      this.store.set('$page.yearToDatePaidInvoices', yearToDatePaidInvoices);
+
+      let unpaidAmountOfAllInvoices = customer.invoices
+         .filter((i) => i.paid === 'no')
+         .reduce((acc, u) => acc + u.amount, 0);
+      this.store.set('$page.unpaidAmountOfAllInvoices', unpaidAmountOfAllInvoices);
+
+      let yearToDateTotalInvoicedAmount = customer.invoices.reduce((acc, a) => acc + a.amount, 0);
+      this.store.set('$page.yearToDateTotalInvoicedAmount', yearToDateTotalInvoicedAmount);
+
+      let lastYearTotalAmount = customer.lastYear.reduce((acc, curr) => acc + curr);
+      this.store.set('$page.lastYearTotalAmount', lastYearTotalAmount);
+   },
 
    onEditCustomer() {
       this.store.set('$page.show.customer', true);
