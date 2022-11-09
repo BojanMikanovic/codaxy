@@ -3,8 +3,8 @@ import { DataProxy, Icon } from 'cx/widgets';
 
 export const KPI = ({ title, value, unit, icon, iconClass, change, className }) => (
    <cx>
-      <div class="bg-white border p-6 rounded transition transition-opacity duration-300" className={className}>
-         <Icon name={icon} class="block p-2 rounded-full w-10 h-10" className={iconClass} />
+      <div class="flex-col bg-zinc-100 border p-6 rounded justify-center " className={className}>
+         <Icon name={icon} class="p-2 rounded-full w-10 h-10 justify-center" className={iconClass} />
          <div class="my-2">{title}</div>
          <div class="text-3xl font-bold leading-none" ws>
             <span text={value} /> <span class="text-sm" text={unit} />
@@ -13,7 +13,7 @@ export const KPI = ({ title, value, unit, icon, iconClass, change, className }) 
             <div
                class="mt-2  flex items-center"
                className={{
-                  'text-green-600': { expr: '{$change} >= 0' },
+                  'text-blue-400': { expr: '{$change} >= 0' },
                   'text-red-600': { expr: '{$change} < 0' },
                }}
             >

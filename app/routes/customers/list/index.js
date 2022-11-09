@@ -11,6 +11,7 @@ export default (
                debounce: 300,
             }}
             icon="search"
+            class="my-4 border-sky-400"
          />
          <Grid
             records-bind="$page.customers"

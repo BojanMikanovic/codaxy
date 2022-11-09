@@ -1,16 +1,12 @@
-import Controller from './Controller';
 import { Svg, Rectangle } from 'cx/svg';
-import { CategoryAxis, Chart, Gridlines, Legend, LineGraph, Marker, NumericAxis } from 'cx/charts';
-import '../../../util/kformat';
-import { Repeater } from 'cx/widgets';
-
-import { bind, tpl } from 'cx/ui';
+import { CategoryAxis, Chart, Gridlines, Legend, LineGraph, NumericAxis } from 'cx/charts';
 
 export default ({}) => (
    <cx>
       <div class="widgets">
          <Svg style="width:500px;height:400px" margin="10 20 30 50">
             <Chart
+               offset="20 -10 -40 40"
                axes={{
                   x: { type: CategoryAxis, hideLine: true, hideTicks: true },
                   y: <NumericAxis vertical />,
@@ -21,115 +17,15 @@ export default ({}) => (
                <LineGraph
                   data-bind="$page.customer.turnover"
                   name="Invoiced amount per month"
-                  colorIndex={9}
+                  colorIndex={7}
                   xField="month"
                   yField="amount"
-                  active
+                  area
+                  active-bind="$page.show.chart"
                />
             </Chart>
          </Svg>
          <Legend vertical />
       </div>
    </cx>
-
-   /* <cx>
-      <div controller={Controller} class="bg-white border col-span-4 px-6 py-4 rounded">
-         <div class="flex items-center">
-            <div class="mr-auto text-gray-600">Performance Chart</div>
-            <Legend />
-         </div>
-         <Svg class="w-[500px] h-[350px] text-gray-500">
-            <Chart
-               margin="30 10 30 45"
-               axes={{
-                  x: { type: CategoryAxis, hideLine: true, hideTicks: true },
-                  y: {
-                     type: NumericAxis,
-                     vertical: true,
-                     tickSize: 0,
-                     minTickDistance: 30,
-                     hideLine: true,
-                     format: 'kformat',
-                  },
-               }}
-            >
-               <Gridlines xAxis={false} />
-               <LineGraph
-                  data-bind="$page.customer.chart"
-                  xField="month"
-                  yField="sales"
-                  class="text-green-500 stroke-current"
-                  colorIndex={4}
-                  active-bind="$page.customer.chart.sales"
-                  legend={false}
-               />
-               <LineGraph
-                  data-bind="$page.customer.chart"
-                  colorIndex={1}
-                  xField="month"
-                  yField="expenses"
-                  name="Expenses"
-                  active-bind="$page.customer.chart.expenses"
-                  legend={false}
-               />
-               <LineGraph
-                  data-bind="$page.customer.chart"
-                  colorIndex={8}
-                  xField="month"
-                  yField="balance"
-                  active-bind="$page.customer.chart.cash"
-                  legend={false}
-               />
-               <Repeater records-bind="$page.customer.chart">
-                  <Marker
-                     name="Sales"
-                     x-bind="$record.month"
-                     y-bind="$record.sales"
-                     shape="circle"
-                     size={12}
-                     colorIndex={4}
-                     style="stroke-width: 2; fill: white"
-                     active-bind="$page.customer.chart.sales"
-                     class="cursor-pointer"
-                     tooltip={{
-                        title: tpl('Sales in {$record.month}'),
-                        text: tpl('{$record.sales:n;0} EUR'),
-                     }}
-                  />
-                  <Marker
-                     name="Expenses"
-                     x-bind="$record.month"
-                     y-bind="$record.expenses"
-                     shape="circle"
-                     size={12}
-                     colorIndex={1}
-                     style="stroke-width: 2; fill: white;"
-                     active-bind="$page.customer.chart.expenses"
-                     class="cursor-pointer"
-                     tooltip={{
-                        title: tpl('Expenses in {$record.month}'),
-                        text: tpl('{$record.expenses:n;0} EUR'),
-                     }}
-                  />
-
-                  <Marker
-                     name="Cash"
-                     x-bind="$record.month"
-                     y-bind="$record.balance"
-                     shape="circle"
-                     size={12}
-                     colorIndex={8}
-                     style="stroke-width: 2; fill: white"
-                     active-bind="$page.customer.chart.cash"
-                     class="cursor-pointer"
-                     tooltip={{
-                        title: tpl('Cash Balance in {$record.month}'),
-                        text: tpl('{$record.balance:n;0} EUR'),
-                     }}
-                  />
-               </Repeater>
-            </Chart>
-         </Svg>
-      </div>
-   </cx> */
 );

@@ -13,132 +13,89 @@
       "yearToDateAllInvoices": 9562,
       "yearToDateTotalInvoicedAmount": 7854,
       "lastYearTotalInvoicedAmount": 1289,
-      "turnover": [
-         {
-            "month": "Jun",
-            "amount": 2000
-         },
-
-         {
-            "month": "Jul",
-            "amount": 6000
-         },
-
-         {
-            "month": "Aug",
-            "amount": 8000
-         },
-
-         {
-            "month": "Sep",
-            "amount": 5500
-         },
-
-         {
-            "month": "Oct",
-            "amount": 8200
-         },
-
-         {
-            "month": "Nov",
-            "amount": 8500
-         }
-      ],
       "invoices": [
          {
-            "id": 1,
-            "invoiceNumber": 2345,
+            "invoiceNumber": 3000,
             "created": "11/09/22",
             "paid": "yes",
             "amount": 8214,
             "currency": "USD"
          },
          {
-            "id": 2,
-            "invoiceNumber": 5236,
+            "invoiceNumber": 3001,
             "created": "07/11/22",
             "paid": "yes",
             "amount": 5642,
             "currency": "USD"
          },
          {
-            "id": 3,
-            "invoiceNumber": 1245,
+            "invoiceNumber": 3002,
             "created": "05/06/22",
             "paid": "yes",
             "amount": 314,
             "currency": "USD"
          },
          {
-            "id": 4,
-            "invoiceNumber": 5689,
+            "invoiceNumber": 3003,
             "created": "12/08/22",
             "paid": "yes",
             "amount": 2314,
             "currency": "USD"
          },
          {
-            "id": 5,
-            "invoiceNumber": 1237,
+            "invoiceNumber": 3004,
             "created": "04/06/22",
             "paid": "no",
             "amount": 1214,
             "currency": "USD"
          },
          {
-            "id": 6,
-            "invoiceNumber": 9865,
+            "invoiceNumber": 3005,
             "created": "28/10/22",
             "paid": "yes",
             "amount": 114,
             "currency": "USD"
          },
          {
-            "id": 7,
-            "invoiceNumber": 2345,
+            "invoiceNumber": 3006,
             "created": "11/09/22",
-            "paid": "yes",
-            "amount": 8214,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 8,
-            "invoiceNumber": 5236,
-            "created": "07/11/22",
-            "paid": "yes",
-            "amount": 5642,
+            "invoiceNumber": 3007,
+            "created": "11/09/22",
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 9,
-            "invoiceNumber": 1245,
-            "created": "05/06/22",
-            "paid": "yes",
-            "amount": 314,
+            "invoiceNumber": 3008,
+            "created": "11/09/22",
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 10,
-            "invoiceNumber": 5689,
-            "created": "12/08/22",
-            "paid": "yes",
-            "amount": 2314,
+            "invoiceNumber": 3009,
+            "created": "11/09/22",
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 11,
-            "invoiceNumber": 1237,
-            "created": "04/06/22",
-            "paid": "no",
-            "amount": 1214,
+            "invoiceNumber": 3010,
+            "created": "11/09/22",
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 12,
-            "invoiceNumber": 9865,
-            "created": "28/10/22",
-            "paid": "yes",
-            "amount": 114,
+            "invoiceNumber": 3011,
+            "created": "11/09/22",
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          }
       ]
@@ -157,132 +114,89 @@
       "yearToDateAllInvoices": 9874,
       "yearToDateTotalInvoicedAmount": 1238,
       "lastYearTotalInvoicedAmount": 4592,
-      "turnover": [
-         {
-            "month": "Jun",
-            "amount": 12000
-         },
-
-         {
-            "month": "Jul",
-            "amount": 14000
-         },
-
-         {
-            "month": "Aug",
-            "amount": 16000
-         },
-
-         {
-            "month": "Sep",
-            "amount": 15000
-         },
-
-         {
-            "month": "Oct",
-            "amount": 16000
-         },
-
-         {
-            "month": "Nov",
-            "amount": 17000
-         }
-      ],
       "invoices": [
          {
-            "id": 13,
             "invoiceNumber": 3012,
             "created": "11/09/22",
-            "paid": "yes",
-            "amount": 5600,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 14,
             "invoiceNumber": 3013,
             "created": "11/09/22",
-            "paid": "yes",
-            "amount": 2356,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 15,
             "invoiceNumber": 3014,
             "created": "11/09/22",
-            "paid": "yes",
-            "amount": 6532,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 16,
             "invoiceNumber": 3015,
             "created": "11/09/22",
-            "paid": "yes",
-            "amount": 114,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 17,
             "invoiceNumber": 3016,
             "created": "11/09/22",
-            "paid": "no",
-            "amount": 4578,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 18,
             "invoiceNumber": 3017,
             "created": "11/09/22",
-            "paid": "yes",
-            "amount": 9865,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 19,
             "invoiceNumber": 3018,
             "created": "11/09/22",
-            "paid": "yes",
-            "amount": 9887,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 20,
             "invoiceNumber": 3019,
             "created": "11/09/22",
-            "paid": "yes",
-            "amount": 4563,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 21,
             "invoiceNumber": 3020,
             "created": "11/09/22",
-            "paid": "no",
-            "amount": 1142,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 22,
             "invoiceNumber": 3021,
             "created": "11/09/22",
-            "paid": "yes",
-            "amount": 2253,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 23,
             "invoiceNumber": 3022,
             "created": "11/09/22",
-            "paid": "yes",
-            "amount": 6653,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 24,
             "invoiceNumber": 3023,
             "created": "11/09/22",
-            "paid": "no",
-            "amount": 4562,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          }
       ]
@@ -301,132 +215,89 @@
       "yearToDateAllInvoices": 5649,
       "yearToDateTotalInvoicedAmount": 8563,
       "lastYearTotalInvoicedAmount": 1487,
-      "turnover": [
-         {
-            "month": "Jun",
-            "amount": 15000
-         },
-
-         {
-            "month": "Jul",
-            "amount": 15500
-         },
-
-         {
-            "month": "Aug",
-            "amount": 16000
-         },
-
-         {
-            "month": "Sep",
-            "amount": 16500
-         },
-
-         {
-            "month": "Oct",
-            "amount": 16600
-         },
-
-         {
-            "month": "Nov",
-            "amount": 17000
-         }
-      ],
       "invoices": [
          {
-            "id": 25,
             "invoiceNumber": 3024,
             "created": "11/09/22",
-            "paid": "yes",
-            "amount": 5689,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 26,
             "invoiceNumber": 3025,
             "created": "11/09/22",
-            "paid": "yes",
-            "amount": 8754,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 27,
             "invoiceNumber": 3026,
             "created": "11/09/22",
-            "paid": "no",
-            "amount": 5421,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 28,
             "invoiceNumber": 3027,
             "created": "11/09/22",
-            "paid": "yes",
-            "amount": 2132,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 29,
             "invoiceNumber": 3028,
             "created": "11/09/22",
-            "paid": "no",
-            "amount": 3142,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 30,
             "invoiceNumber": 3029,
             "created": "11/09/22",
-            "paid": "yes",
-            "amount": 6532,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 31,
             "invoiceNumber": 3030,
             "created": "11/09/22",
-            "paid": "yes",
-            "amount": 4523,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 32,
             "invoiceNumber": 3031,
             "created": "11/09/22",
-            "paid": "yes",
-            "amount": 7845,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 33,
             "invoiceNumber": 3032,
             "created": "11/09/22",
-            "paid": "yes",
-            "amount": 9865,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 34,
             "invoiceNumber": 3033,
             "created": "11/09/22",
-            "paid": "yes",
-            "amount": 1214,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 35,
             "invoiceNumber": 3034,
             "created": "11/09/22",
-            "paid": "yes",
-            "amount": 1425,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 36,
             "invoiceNumber": 3035,
             "created": "11/09/22",
-            "paid": "yes",
-            "amount": 1753,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          }
       ]
@@ -445,132 +316,89 @@
       "yearToDateAllInvoices": 4523,
       "yearToDateTotalInvoicedAmount": 9865,
       "lastYearTotalInvoicedAmount": 6537,
-      "turnover": [
-         {
-            "month": "Jun",
-            "amount": 13000
-         },
-
-         {
-            "month": "Jul",
-            "amount": 12000
-         },
-
-         {
-            "month": "Aug",
-            "amount": 11100
-         },
-
-         {
-            "month": "Sep",
-            "amount": 11500
-         },
-
-         {
-            "month": "Oct",
-            "amount": 11750
-         },
-
-         {
-            "month": "Nov",
-            "amount": 12000
-         }
-      ],
       "invoices": [
          {
-            "id": 37,
             "invoiceNumber": 3036,
             "created": "11/09/22",
-            "paid": "yes",
-            "amount": 5465,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 38,
             "invoiceNumber": 3037,
             "created": "11/09/22",
-            "paid": "no",
-            "amount": 5623,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 39,
             "invoiceNumber": 3038,
             "created": "11/09/22",
-            "paid": "yes",
-            "amount": 6532,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 40,
             "invoiceNumber": 3039,
             "created": "11/09/22",
-            "paid": "yes",
-            "amount": 9865,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 41,
             "invoiceNumber": 3040,
             "created": "11/09/22",
-            "paid": "yes",
-            "amount": 7845,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 42,
             "invoiceNumber": 3041,
             "created": "11/09/22",
-            "paid": "no",
-            "amount": 9865,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 43,
             "invoiceNumber": 3042,
             "created": "11/09/22",
-            "paid": "yes",
-            "amount": 4521,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 44,
             "invoiceNumber": 3043,
             "created": "11/09/22",
-            "paid": "yes",
-            "amount": 3242,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 45,
             "invoiceNumber": 3044,
             "created": "11/09/22",
-            "paid": "yes",
-            "amount": 6532,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 46,
             "invoiceNumber": 3045,
             "created": "11/09/22",
-            "paid": "yes",
-            "amount": 652,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 47,
             "invoiceNumber": 3046,
             "created": "11/09/22",
-            "paid": "yes",
-            "amount": 5263,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 48,
             "invoiceNumber": 3047,
             "created": "11/09/22",
-            "paid": "yes",
-            "amount": 4152,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          }
       ]
@@ -589,132 +417,89 @@
       "yearToDateAllInvoices": 4631,
       "yearToDateTotalInvoicedAmount": 3945,
       "lastYearTotalInvoicedAmount": 1483,
-      "turnover": [
-         {
-            "month": "Jun",
-            "amount": 22000
-         },
-
-         {
-            "month": "Jul",
-            "amount": 26500
-         },
-
-         {
-            "month": "Aug",
-            "amount": 28000
-         },
-
-         {
-            "month": "Sep",
-            "amount": 29000
-         },
-
-         {
-            "month": "Oct",
-            "amount": 29100
-         },
-
-         {
-            "month": "Nov",
-            "amount": 39000
-         }
-      ],
       "invoices": [
          {
-            "id": 49,
             "invoiceNumber": 3048,
             "created": "11/09/22",
-            "paid": "yes",
-            "amount": 4152,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 50,
             "invoiceNumber": 3049,
             "created": "11/09/22",
-            "paid": "no",
-            "amount": 2514,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 51,
             "invoiceNumber": 3050,
             "created": "11/09/22",
-            "paid": "yes",
-            "amount": 5263,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 52,
             "invoiceNumber": 3051,
             "created": "11/09/22",
-            "paid": "yes",
-            "amount": 3625,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 53,
             "invoiceNumber": 3052,
             "created": "11/09/22",
-            "paid": "yes",
-            "amount": 7485,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 54,
             "invoiceNumber": 3053,
             "created": "11/09/22",
-            "paid": "yes",
-            "amount": 9685,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 55,
             "invoiceNumber": 3054,
             "created": "11/09/22",
-            "paid": "yes",
-            "amount": 8563,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 56,
             "invoiceNumber": 3055,
             "created": "11/09/22",
-            "paid": "yes",
-            "amount": 8541,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 57,
             "invoiceNumber": 3056,
             "created": "11/09/22",
-            "paid": "no",
-            "amount": 7415,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 58,
             "invoiceNumber": 3057,
             "created": "11/09/22",
-            "paid": "yes",
-            "amount": 7485,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 59,
             "invoiceNumber": 3058,
             "created": "11/09/22",
-            "paid": "yes",
-            "amount": 9685,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 60,
             "invoiceNumber": 3059,
             "created": "11/09/22",
-            "paid": "yes",
-            "amount": 7412,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          }
       ]
@@ -733,132 +518,89 @@
       "yearToDateAllInvoices": 1486,
       "yearToDateTotalInvoicedAmount": 3695,
       "lastYearTotalInvoicedAmount": 2586,
-      "turnover": [
-         {
-            "month": "Jun",
-            "amount": 22000
-         },
-
-         {
-            "month": "Jul",
-            "amount": 26500
-         },
-
-         {
-            "month": "Aug",
-            "amount": 28000
-         },
-
-         {
-            "month": "Sep",
-            "amount": 29000
-         },
-
-         {
-            "month": "Oct",
-            "amount": 29100
-         },
-
-         {
-            "month": "Nov",
-            "amount": 39000
-         }
-      ],
       "invoices": [
          {
-            "id": 61,
             "invoiceNumber": 3060,
             "created": "11/09/22",
-            "paid": "yes",
-            "amount": 9865,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 62,
             "invoiceNumber": 3061,
             "created": "11/09/22",
-            "paid": "no",
-            "amount": 4532,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 63,
             "invoiceNumber": 3062,
             "created": "11/09/22",
-            "paid": "yes",
-            "amount": 1232,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 64,
             "invoiceNumber": 3063,
             "created": "11/09/22",
-            "paid": "yes",
-            "amount": 6532,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 65,
             "invoiceNumber": 3064,
             "created": "11/09/22",
-            "paid": "yes",
-            "amount": 7845,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 66,
             "invoiceNumber": 3065,
             "created": "11/09/22",
-            "paid": "yes",
-            "amount": 3265,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 67,
             "invoiceNumber": 3066,
             "created": "11/09/22",
-            "paid": "yes",
-            "amount": 1278,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 68,
             "invoiceNumber": 3067,
             "created": "11/09/22",
-            "paid": "yes",
-            "amount": 8956,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 69,
             "invoiceNumber": 3068,
             "created": "11/09/22",
-            "paid": "yes",
-            "amount": 5656,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 70,
             "invoiceNumber": 3069,
             "created": "11/09/22",
-            "paid": "yes",
-            "amount": 1245,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 71,
             "invoiceNumber": 3070,
             "created": "11/09/22",
-            "paid": "yes",
-            "amount": 2345,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 72,
             "invoiceNumber": 3071,
             "created": "11/09/22",
-            "paid": "no",
-            "amount": 4758,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          }
       ]
@@ -877,132 +619,89 @@
       "yearToDateAllInvoices": 2558,
       "yearToDateTotalInvoicedAmount": 3669,
       "lastYearTotalInvoicedAmount": 1425,
-      "turnover": [
-         {
-            "month": "Jun",
-            "amount": 22000
-         },
-
-         {
-            "month": "Jul",
-            "amount": 26500
-         },
-
-         {
-            "month": "Aug",
-            "amount": 28000
-         },
-
-         {
-            "month": "Sep",
-            "amount": 29000
-         },
-
-         {
-            "month": "Oct",
-            "amount": 29100
-         },
-
-         {
-            "month": "Nov",
-            "amount": 39000
-         }
-      ],
       "invoices": [
          {
-            "id": 73,
             "invoiceNumber": 3072,
             "created": "11/09/22",
-            "paid": "no",
-            "amount": 3625,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 74,
             "invoiceNumber": 3073,
             "created": "11/09/22",
-            "paid": "yes",
-            "amount": 8563,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 75,
             "invoiceNumber": 3074,
             "created": "11/09/22",
-            "paid": "yes",
-            "amount": 2514,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 76,
             "invoiceNumber": 3075,
             "created": "11/09/22",
-            "paid": "yes",
-            "amount": 3625,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 77,
             "invoiceNumber": 3076,
             "created": "11/09/22",
-            "paid": "yes",
-            "amount": 1425,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 78,
             "invoiceNumber": 3077,
             "created": "11/09/22",
-            "paid": "yes",
-            "amount": 3625,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 79,
             "invoiceNumber": 3078,
             "created": "11/09/22",
-            "paid": "yes",
-            "amount": 1425,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 80,
             "invoiceNumber": 3079,
             "created": "11/09/22",
-            "paid": "yes",
-            "amount": 1425,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 81,
             "invoiceNumber": 3080,
             "created": "11/09/22",
-            "paid": "yes",
-            "amount": 7485,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 82,
             "invoiceNumber": 3081,
             "created": "11/09/22",
-            "paid": "yes",
-            "amount": 4152,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 83,
             "invoiceNumber": 3082,
             "created": "11/09/22",
-            "paid": "yes",
-            "amount": 8596,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 84,
             "invoiceNumber": 3083,
             "created": "11/09/22",
-            "paid": "yes",
-            "amount": 3265,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          }
       ]
@@ -1021,132 +720,89 @@
       "yearToDateAllInvoices": 5836,
       "yearToDateTotalInvoicedAmount": 2847,
       "lastYearTotalInvoicedAmount": 1739,
-      "turnover": [
-         {
-            "month": "Jun",
-            "amount": 22000
-         },
-
-         {
-            "month": "Jul",
-            "amount": 26500
-         },
-
-         {
-            "month": "Aug",
-            "amount": 28000
-         },
-
-         {
-            "month": "Sep",
-            "amount": 29000
-         },
-
-         {
-            "month": "Oct",
-            "amount": 29100
-         },
-
-         {
-            "month": "Nov",
-            "amount": 39000
-         }
-      ],
       "invoices": [
          {
-            "id": 85,
             "invoiceNumber": 3084,
             "created": "11/09/22",
-            "paid": "yes",
-            "amount": 1112,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 86,
             "invoiceNumber": 3085,
             "created": "11/09/22",
-            "paid": "yes",
-            "amount": 2224,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 87,
             "invoiceNumber": 3086,
             "created": "11/09/22",
-            "paid": "no",
-            "amount": 3336,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 88,
             "invoiceNumber": 3087,
             "created": "11/09/22",
-            "paid": "yes",
-            "amount": 5552,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 89,
             "invoiceNumber": 3088,
             "created": "11/09/22",
-            "paid": "yes",
-            "amount": 3124,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 90,
             "invoiceNumber": 3089,
             "created": "11/09/22",
-            "paid": "yes",
-            "amount": 5643,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 91,
             "invoiceNumber": 3090,
             "created": "11/09/22",
-            "paid": "yes",
-            "amount": 7948,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 92,
             "invoiceNumber": 3091,
             "created": "11/09/22",
-            "paid": "yes",
-            "amount": 4679,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 93,
             "invoiceNumber": 3092,
             "created": "11/09/22",
-            "paid": "yes",
-            "amount": 4659,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 94,
             "invoiceNumber": 3093,
             "created": "11/09/22",
-            "paid": "yes",
-            "amount": 5623,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 95,
             "invoiceNumber": 3094,
             "created": "11/09/22",
-            "paid": "yes",
-            "amount": 2356,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 96,
             "invoiceNumber": 3095,
             "created": "11/09/22",
-            "paid": "yes",
-            "amount": 7845,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          }
       ]
@@ -1165,132 +821,89 @@
       "yearToDateAllInvoices": 2839,
       "yearToDateTotalInvoicedAmount": 3928,
       "lastYearTotalInvoicedAmount": 2817,
-      "turnover": [
-         {
-            "month": "Jun",
-            "amount": 22000
-         },
-
-         {
-            "month": "Jul",
-            "amount": 26500
-         },
-
-         {
-            "month": "Aug",
-            "amount": 28000
-         },
-
-         {
-            "month": "Sep",
-            "amount": 29000
-         },
-
-         {
-            "month": "Oct",
-            "amount": 29100
-         },
-
-         {
-            "month": "Nov",
-            "amount": 39000
-         }
-      ],
       "invoices": [
          {
-            "id": 97,
             "invoiceNumber": 3096,
             "created": "11/09/22",
-            "paid": "yes",
-            "amount": 8956,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 98,
             "invoiceNumber": 3097,
             "created": "11/09/22",
-            "paid": "yes",
-            "amount": 7645,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 99,
             "invoiceNumber": 3098,
             "created": "11/09/22",
-            "paid": "yes",
-            "amount": 2356,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 100,
             "invoiceNumber": 3099,
             "created": "11/09/22",
-            "paid": "yes",
-            "amount": 9865,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 101,
             "invoiceNumber": 3100,
             "created": "11/09/22",
-            "paid": "yes",
-            "amount": 7842,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 102,
             "invoiceNumber": 3101,
             "created": "11/09/22",
-            "paid": "yes",
-            "amount": 2356,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 103,
             "invoiceNumber": 3102,
             "created": "11/09/22",
-            "paid": "yes",
-            "amount": 8976,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 104,
             "invoiceNumber": 3103,
             "created": "11/09/22",
-            "paid": "yes",
-            "amount": 4562,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 105,
             "invoiceNumber": 3104,
             "created": "11/09/22",
-            "paid": "no",
-            "amount": 2359,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 106,
             "invoiceNumber": 3105,
             "created": "11/09/22",
-            "paid": "yes",
-            "amount": 8754,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 107,
             "invoiceNumber": 3106,
             "created": "11/09/22",
-            "paid": "yes",
-            "amount": 9865,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 108,
             "invoiceNumber": 3107,
             "created": "11/09/22",
-            "paid": "yes",
-            "amount": 5421,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          }
       ]
@@ -1309,132 +922,89 @@
       "yearToDateAllInvoices": 1472,
       "yearToDateTotalInvoicedAmount": 2581,
       "lastYearTotalInvoicedAmount": 3692,
-      "turnover": [
-         {
-            "month": "Jun",
-            "amount": 22000
-         },
-
-         {
-            "month": "Jul",
-            "amount": 26500
-         },
-
-         {
-            "month": "Aug",
-            "amount": 28000
-         },
-
-         {
-            "month": "Sep",
-            "amount": 29000
-         },
-
-         {
-            "month": "Oct",
-            "amount": 29100
-         },
-
-         {
-            "month": "Nov",
-            "amount": 39000
-         }
-      ],
       "invoices": [
          {
-            "id": 109,
             "invoiceNumber": 3108,
             "created": "11/09/22",
-            "paid": "yes",
-            "amount": 5263,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 110,
             "invoiceNumber": 3109,
             "created": "11/09/22",
-            "paid": "yes",
-            "amount": 2536,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 111,
             "invoiceNumber": 3110,
             "created": "11/09/22",
-            "paid": "yes",
-            "amount": 5869,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 112,
             "invoiceNumber": 3111,
             "created": "11/09/22",
-            "paid": "yes",
-            "amount": 4758,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 113,
             "invoiceNumber": 3112,
             "created": "11/09/22",
-            "paid": "yes",
-            "amount": 1425,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 114,
             "invoiceNumber": 3113,
             "created": "11/09/22",
-            "paid": "no",
-            "amount": 2536,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 115,
             "invoiceNumber": 3114,
             "created": "11/09/22",
-            "paid": "yes",
-            "amount": 6352,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 116,
             "invoiceNumber": 3115,
             "created": "11/09/22",
-            "paid": "yes",
-            "amount": 9685,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 117,
             "invoiceNumber": 3116,
             "created": "11/09/22",
-            "paid": "yes",
-            "amount": 7474,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 118,
             "invoiceNumber": 3117,
             "created": "11/09/22",
-            "paid": "yes",
-            "amount": 4152,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 119,
             "invoiceNumber": 3118,
             "created": "11/09/22",
-            "paid": "yes",
-            "amount": 6352,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 120,
             "invoiceNumber": 3119,
             "created": "11/09/22",
-            "paid": "yes",
-            "amount": 8596,
+            "paid": true,
+            "amount": 12314,
             "currency": "USD"
          }
       ]
@@ -1453,131 +1023,88 @@
       "yearToDateAllInvoices": 9635,
       "yearToDateTotalInvoicedAmount": 8524,
       "lastYearTotalInvoicedAmount": 7412,
-      "turnover": [
-         {
-            "month": "Jun",
-            "amount": 22000
-         },
-
-         {
-            "month": "Jul",
-            "amount": 26500
-         },
-
-         {
-            "month": "Aug",
-            "amount": 28000
-         },
-
-         {
-            "month": "Sep",
-            "amount": 29000
-         },
-
-         {
-            "month": "Oct",
-            "amount": 29100
-         },
-
-         {
-            "month": "Nov",
-            "amount": 39000
-         }
-      ],
       "invoices": [
          {
-            "id": 122,
             "invoiceNumber": 3120,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 123,
             "invoiceNumber": 3121,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 124,
             "invoiceNumber": 3122,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 125,
             "invoiceNumber": 3123,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 126,
             "invoiceNumber": 3124,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 127,
             "invoiceNumber": 3125,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 128,
             "invoiceNumber": 3126,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 129,
             "invoiceNumber": 3127,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 130,
             "invoiceNumber": 3128,
             "created": "11/09/22",
-            "paid": "no",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 131,
             "invoiceNumber": 3129,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 132,
             "invoiceNumber": 3130,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 133,
             "invoiceNumber": 3131,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          }
@@ -1597,131 +1124,88 @@
       "yearToDateAllInvoices": 9635,
       "yearToDateTotalInvoicedAmount": 7541,
       "lastYearTotalInvoicedAmount": 8653,
-      "turnover": [
-         {
-            "month": "Jun",
-            "amount": 22000
-         },
-
-         {
-            "month": "Jul",
-            "amount": 26500
-         },
-
-         {
-            "month": "Aug",
-            "amount": 28000
-         },
-
-         {
-            "month": "Sep",
-            "amount": 29000
-         },
-
-         {
-            "month": "Oct",
-            "amount": 29100
-         },
-
-         {
-            "month": "Nov",
-            "amount": 39000
-         }
-      ],
       "invoices": [
          {
-            "id": 134,
             "invoiceNumber": 3132,
             "created": "11/09/22",
-            "paid": "no",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 135,
             "invoiceNumber": 3133,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 136,
             "invoiceNumber": 3134,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 137,
             "invoiceNumber": 3135,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 138,
             "invoiceNumber": 3136,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 139,
             "invoiceNumber": 3137,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 140,
             "invoiceNumber": 3138,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 141,
             "invoiceNumber": 3139,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 142,
             "invoiceNumber": 3140,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 143,
             "invoiceNumber": 3141,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 144,
             "invoiceNumber": 3142,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 145,
             "invoiceNumber": 3143,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          }
@@ -1741,131 +1225,88 @@
       "yearToDateAllInvoices": 7542,
       "yearToDateTotalInvoicedAmount": 3568,
       "lastYearTotalInvoicedAmount": 9562,
-      "turnover": [
-         {
-            "month": "Jun",
-            "amount": 22000
-         },
-
-         {
-            "month": "Jul",
-            "amount": 26500
-         },
-
-         {
-            "month": "Aug",
-            "amount": 28000
-         },
-
-         {
-            "month": "Sep",
-            "amount": 29000
-         },
-
-         {
-            "month": "Oct",
-            "amount": 29100
-         },
-
-         {
-            "month": "Nov",
-            "amount": 39000
-         }
-      ],
       "invoices": [
          {
-            "id": 146,
             "invoiceNumber": 3144,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 147,
             "invoiceNumber": 3145,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 148,
             "invoiceNumber": 3146,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 149,
             "invoiceNumber": 3147,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 150,
             "invoiceNumber": 3148,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 151,
             "invoiceNumber": 3149,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 152,
             "invoiceNumber": 3150,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 153,
             "invoiceNumber": 3151,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 154,
             "invoiceNumber": 3152,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 155,
             "invoiceNumber": 3153,
             "created": "11/09/22",
-            "paid": "no",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 156,
             "invoiceNumber": 3154,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 157,
             "invoiceNumber": 3155,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          }
@@ -1885,131 +1326,88 @@
       "yearToDateAllInvoices": 8653,
       "yearToDateTotalInvoicedAmount": 7542,
       "lastYearTotalInvoicedAmount": 2659,
-      "turnover": [
-         {
-            "month": "Jun",
-            "amount": 22000
-         },
-
-         {
-            "month": "Jul",
-            "amount": 26500
-         },
-
-         {
-            "month": "Aug",
-            "amount": 28000
-         },
-
-         {
-            "month": "Sep",
-            "amount": 29000
-         },
-
-         {
-            "month": "Oct",
-            "amount": 29100
-         },
-
-         {
-            "month": "Nov",
-            "amount": 39000
-         }
-      ],
       "invoices": [
          {
-            "id": 158,
             "invoiceNumber": 3156,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 159,
             "invoiceNumber": 3157,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 160,
             "invoiceNumber": 3158,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 161,
             "invoiceNumber": 3159,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 162,
             "invoiceNumber": 3160,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 163,
             "invoiceNumber": 3161,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 164,
             "invoiceNumber": 3162,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 165,
             "invoiceNumber": 3163,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 166,
             "invoiceNumber": 3164,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 167,
             "invoiceNumber": 3165,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 168,
             "invoiceNumber": 3166,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 169,
             "invoiceNumber": 3167,
             "created": "11/09/22",
-            "paid": "no",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          }
@@ -2029,131 +1427,88 @@
       "yearToDateAllInvoices": 2324,
       "yearToDateTotalInvoicedAmount": 4598,
       "lastYearTotalInvoicedAmount": 2378,
-      "turnover": [
-         {
-            "month": "Jun",
-            "amount": 22000
-         },
-
-         {
-            "month": "Jul",
-            "amount": 26500
-         },
-
-         {
-            "month": "Aug",
-            "amount": 28000
-         },
-
-         {
-            "month": "Sep",
-            "amount": 29000
-         },
-
-         {
-            "month": "Oct",
-            "amount": 29100
-         },
-
-         {
-            "month": "Nov",
-            "amount": 39000
-         }
-      ],
       "invoices": [
          {
-            "id": 170,
             "invoiceNumber": 3168,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 171,
             "invoiceNumber": 3169,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 172,
             "invoiceNumber": 3170,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 173,
             "invoiceNumber": 3171,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 174,
             "invoiceNumber": 3172,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 175,
             "invoiceNumber": 3173,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 176,
             "invoiceNumber": 3174,
             "created": "11/09/22",
-            "paid": "no",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 177,
             "invoiceNumber": 3175,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 178,
             "invoiceNumber": 3176,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 179,
             "invoiceNumber": 3177,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 180,
             "invoiceNumber": 3178,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 181,
             "invoiceNumber": 3179,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          }
@@ -2173,131 +1528,88 @@
       "yearToDateAllInvoices": 5665,
       "yearToDateTotalInvoicedAmount": 4545,
       "lastYearTotalInvoicedAmount": 2356,
-      "turnover": [
-         {
-            "month": "Jun",
-            "amount": 22000
-         },
-
-         {
-            "month": "Jul",
-            "amount": 26500
-         },
-
-         {
-            "month": "Aug",
-            "amount": 28000
-         },
-
-         {
-            "month": "Sep",
-            "amount": 29000
-         },
-
-         {
-            "month": "Oct",
-            "amount": 29100
-         },
-
-         {
-            "month": "Nov",
-            "amount": 39000
-         }
-      ],
       "invoices": [
          {
-            "id": 182,
             "invoiceNumber": 3180,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 183,
             "invoiceNumber": 3181,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 184,
             "invoiceNumber": 3182,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 185,
             "invoiceNumber": 3183,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 186,
             "invoiceNumber": 3184,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 187,
             "invoiceNumber": 3185,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 188,
             "invoiceNumber": 3186,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 189,
             "invoiceNumber": 3187,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 190,
             "invoiceNumber": 3188,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 191,
             "invoiceNumber": 3189,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 192,
             "invoiceNumber": 3190,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 193,
             "invoiceNumber": 3191,
             "created": "11/09/22",
-            "paid": "no",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          }
@@ -2317,131 +1629,88 @@
       "yearToDateAllInvoices": 4589,
       "yearToDateTotalInvoicedAmount": 5678,
       "lastYearTotalInvoicedAmount": 2189,
-      "turnover": [
-         {
-            "month": "Jun",
-            "amount": 22000
-         },
-
-         {
-            "month": "Jul",
-            "amount": 26500
-         },
-
-         {
-            "month": "Aug",
-            "amount": 28000
-         },
-
-         {
-            "month": "Sep",
-            "amount": 29000
-         },
-
-         {
-            "month": "Oct",
-            "amount": 29100
-         },
-
-         {
-            "month": "Nov",
-            "amount": 39000
-         }
-      ],
       "invoices": [
          {
-            "id": 194,
             "invoiceNumber": 3192,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 195,
             "invoiceNumber": 3193,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 196,
             "invoiceNumber": 3194,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 197,
             "invoiceNumber": 3195,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 198,
             "invoiceNumber": 3196,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 199,
             "invoiceNumber": 3197,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 200,
             "invoiceNumber": 3198,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 201,
             "invoiceNumber": 3199,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 202,
             "invoiceNumber": 3200,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 203,
             "invoiceNumber": 3201,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 204,
             "invoiceNumber": 3202,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 205,
             "invoiceNumber": 3203,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          }
@@ -2461,131 +1730,88 @@
       "yearToDateAllInvoices": 6598,
       "yearToDateTotalInvoicedAmount": 4523,
       "lastYearTotalInvoicedAmount": 5632,
-      "turnover": [
-         {
-            "month": "Jun",
-            "amount": 22000
-         },
-
-         {
-            "month": "Jul",
-            "amount": 26500
-         },
-
-         {
-            "month": "Aug",
-            "amount": 28000
-         },
-
-         {
-            "month": "Sep",
-            "amount": 29000
-         },
-
-         {
-            "month": "Oct",
-            "amount": 29100
-         },
-
-         {
-            "month": "Nov",
-            "amount": 39000
-         }
-      ],
       "invoices": [
          {
-            "id": 206,
             "invoiceNumber": 3204,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 207,
             "invoiceNumber": 3205,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 208,
             "invoiceNumber": 3206,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 209,
             "invoiceNumber": 3207,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 210,
             "invoiceNumber": 3208,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 211,
             "invoiceNumber": 3209,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 212,
             "invoiceNumber": 3210,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 213,
             "invoiceNumber": 3211,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 214,
             "invoiceNumber": 3212,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 215,
             "invoiceNumber": 3213,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 216,
             "invoiceNumber": 3214,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 217,
             "invoiceNumber": 3215,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          }
@@ -2605,131 +1831,88 @@
       "yearToDateAllInvoices": 4821,
       "yearToDateTotalInvoicedAmount": 5346,
       "lastYearTotalInvoicedAmount": 1253,
-      "turnover": [
-         {
-            "month": "Jun",
-            "amount": 22000
-         },
-
-         {
-            "month": "Jul",
-            "amount": 26500
-         },
-
-         {
-            "month": "Aug",
-            "amount": 28000
-         },
-
-         {
-            "month": "Sep",
-            "amount": 29000
-         },
-
-         {
-            "month": "Oct",
-            "amount": 29100
-         },
-
-         {
-            "month": "Nov",
-            "amount": 39000
-         }
-      ],
       "invoices": [
          {
-            "id": 218,
             "invoiceNumber": 3216,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 219,
             "invoiceNumber": 3217,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 220,
             "invoiceNumber": 3218,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 221,
             "invoiceNumber": 3219,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 222,
             "invoiceNumber": 3220,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 223,
             "invoiceNumber": 3221,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 224,
             "invoiceNumber": 3222,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 225,
             "invoiceNumber": 3223,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 226,
             "invoiceNumber": 3224,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 227,
             "invoiceNumber": 3225,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 228,
             "invoiceNumber": 3226,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 229,
             "invoiceNumber": 3227,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          }
@@ -2749,131 +1932,88 @@
       "yearToDateAllInvoices": 7542,
       "yearToDateTotalInvoicedAmount": 5465,
       "lastYearTotalInvoicedAmount": 9854,
-      "turnover": [
-         {
-            "month": "Jun",
-            "amount": 22000
-         },
-
-         {
-            "month": "Jul",
-            "amount": 26500
-         },
-
-         {
-            "month": "Aug",
-            "amount": 28000
-         },
-
-         {
-            "month": "Sep",
-            "amount": 29000
-         },
-
-         {
-            "month": "Oct",
-            "amount": 29100
-         },
-
-         {
-            "month": "Nov",
-            "amount": 39000
-         }
-      ],
       "invoices": [
          {
-            "id": 230,
             "invoiceNumber": 3228,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 231,
             "invoiceNumber": 3229,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 232,
             "invoiceNumber": 3230,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 233,
             "invoiceNumber": 3231,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 234,
             "invoiceNumber": 3232,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 235,
             "invoiceNumber": 3233,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 236,
             "invoiceNumber": 3234,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 237,
             "invoiceNumber": 3235,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 238,
             "invoiceNumber": 3236,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 239,
             "invoiceNumber": 3237,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 240,
             "invoiceNumber": 3238,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 241,
             "invoiceNumber": 3239,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          }
@@ -2893,131 +2033,88 @@
       "yearToDateAllInvoices": 5424,
       "yearToDateTotalInvoicedAmount": 8965,
       "lastYearTotalInvoicedAmount": 3256,
-      "turnover": [
-         {
-            "month": "Jun",
-            "amount": 22000
-         },
-
-         {
-            "month": "Jul",
-            "amount": 26500
-         },
-
-         {
-            "month": "Aug",
-            "amount": 28000
-         },
-
-         {
-            "month": "Sep",
-            "amount": 29000
-         },
-
-         {
-            "month": "Oct",
-            "amount": 29100
-         },
-
-         {
-            "month": "Nov",
-            "amount": 39000
-         }
-      ],
       "invoices": [
          {
-            "id": 242,
             "invoiceNumber": 3240,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 243,
             "invoiceNumber": 3241,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 244,
             "invoiceNumber": 3242,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 245,
             "invoiceNumber": 3243,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 246,
             "invoiceNumber": 3244,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 247,
             "invoiceNumber": 3245,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 248,
             "invoiceNumber": 3246,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 249,
             "invoiceNumber": 3247,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 250,
             "invoiceNumber": 3248,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 251,
             "invoiceNumber": 3249,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 252,
             "invoiceNumber": 3250,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 253,
             "invoiceNumber": 3251,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          }
@@ -3037,131 +2134,88 @@
       "yearToDateAllInvoices": 6534,
       "yearToDateTotalInvoicedAmount": 4523,
       "lastYearTotalInvoicedAmount": 5687,
-      "turnover": [
-         {
-            "month": "Jun",
-            "amount": 22000
-         },
-
-         {
-            "month": "Jul",
-            "amount": 26500
-         },
-
-         {
-            "month": "Aug",
-            "amount": 28000
-         },
-
-         {
-            "month": "Sep",
-            "amount": 29000
-         },
-
-         {
-            "month": "Oct",
-            "amount": 29100
-         },
-
-         {
-            "month": "Nov",
-            "amount": 39000
-         }
-      ],
       "invoices": [
          {
-            "id": 254,
             "invoiceNumber": 3252,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 255,
             "invoiceNumber": 3253,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 256,
             "invoiceNumber": 3254,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 257,
             "invoiceNumber": 3255,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 258,
             "invoiceNumber": 3256,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 259,
             "invoiceNumber": 3257,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 260,
             "invoiceNumber": 3258,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 261,
             "invoiceNumber": 3259,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 262,
             "invoiceNumber": 3260,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 263,
             "invoiceNumber": 3261,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 264,
             "invoiceNumber": 3262,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 265,
             "invoiceNumber": 3263,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          }
@@ -3181,131 +2235,88 @@
       "yearToDateAllInvoices": 3512,
       "yearToDateTotalInvoicedAmount": 5496,
       "lastYearTotalInvoicedAmount": 2323,
-      "turnover": [
-         {
-            "month": "Jun",
-            "amount": 22000
-         },
-
-         {
-            "month": "Jul",
-            "amount": 26500
-         },
-
-         {
-            "month": "Aug",
-            "amount": 28000
-         },
-
-         {
-            "month": "Sep",
-            "amount": 29000
-         },
-
-         {
-            "month": "Oct",
-            "amount": 29100
-         },
-
-         {
-            "month": "Nov",
-            "amount": 39000
-         }
-      ],
       "invoices": [
          {
-            "id": 266,
             "invoiceNumber": 3264,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 267,
             "invoiceNumber": 3265,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 268,
             "invoiceNumber": 3266,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 269,
             "invoiceNumber": 3267,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 270,
             "invoiceNumber": 3268,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 271,
             "invoiceNumber": 3269,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 272,
             "invoiceNumber": 3270,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 273,
             "invoiceNumber": 3271,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 274,
             "invoiceNumber": 3272,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 275,
             "invoiceNumber": 3273,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 276,
             "invoiceNumber": 3274,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 277,
             "invoiceNumber": 3275,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          }
@@ -3325,131 +2336,88 @@
       "yearToDateAllInvoices": 3245,
       "yearToDateTotalInvoicedAmount": 5632,
       "lastYearTotalInvoicedAmount": 4521,
-      "turnover": [
-         {
-            "month": "Jun",
-            "amount": 22000
-         },
-
-         {
-            "month": "Jul",
-            "amount": 26500
-         },
-
-         {
-            "month": "Aug",
-            "amount": 28000
-         },
-
-         {
-            "month": "Sep",
-            "amount": 29000
-         },
-
-         {
-            "month": "Oct",
-            "amount": 29100
-         },
-
-         {
-            "month": "Nov",
-            "amount": 39000
-         }
-      ],
       "invoices": [
          {
-            "id": 278,
             "invoiceNumber": 3276,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 279,
             "invoiceNumber": 3277,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 280,
             "invoiceNumber": 3278,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 281,
             "invoiceNumber": 3279,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 282,
             "invoiceNumber": 3280,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 283,
             "invoiceNumber": 3281,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 284,
             "invoiceNumber": 3282,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 285,
             "invoiceNumber": 3283,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 286,
             "invoiceNumber": 3284,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 287,
             "invoiceNumber": 3285,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 288,
             "invoiceNumber": 3286,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 289,
             "invoiceNumber": 3287,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          }
@@ -3469,131 +2437,88 @@
       "yearToDateAllInvoices": 8954,
       "yearToDateTotalInvoicedAmount": 6541,
       "lastYearTotalInvoicedAmount": 7532,
-      "turnover": [
-         {
-            "month": "Jun",
-            "amount": 22000
-         },
-
-         {
-            "month": "Jul",
-            "amount": 26500
-         },
-
-         {
-            "month": "Aug",
-            "amount": 28000
-         },
-
-         {
-            "month": "Sep",
-            "amount": 29000
-         },
-
-         {
-            "month": "Oct",
-            "amount": 29100
-         },
-
-         {
-            "month": "Nov",
-            "amount": 39000
-         }
-      ],
       "invoices": [
          {
-            "id": 290,
             "invoiceNumber": 3288,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 291,
             "invoiceNumber": 3289,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 292,
             "invoiceNumber": 3290,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 293,
             "invoiceNumber": 3291,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 294,
             "invoiceNumber": 3292,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 295,
             "invoiceNumber": 3293,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 296,
             "invoiceNumber": 3294,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 297,
             "invoiceNumber": 3295,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 298,
             "invoiceNumber": 3296,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 299,
             "invoiceNumber": 3297,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 300,
             "invoiceNumber": 3298,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 301,
             "invoiceNumber": 3299,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          }
@@ -3613,131 +2538,88 @@
       "yearToDateAllInvoices": 3652,
       "yearToDateTotalInvoicedAmount": 1425,
       "lastYearTotalInvoicedAmount": 3232,
-      "turnover": [
-         {
-            "month": "Jun",
-            "amount": 22000
-         },
-
-         {
-            "month": "Jul",
-            "amount": 26500
-         },
-
-         {
-            "month": "Aug",
-            "amount": 28000
-         },
-
-         {
-            "month": "Sep",
-            "amount": 29000
-         },
-
-         {
-            "month": "Oct",
-            "amount": 29100
-         },
-
-         {
-            "month": "Nov",
-            "amount": 39000
-         }
-      ],
       "invoices": [
          {
-            "id": 302,
             "invoiceNumber": 3300,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 303,
             "invoiceNumber": 3301,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 304,
             "invoiceNumber": 3302,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 305,
             "invoiceNumber": 3303,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 306,
             "invoiceNumber": 3304,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 307,
             "invoiceNumber": 3305,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 308,
             "invoiceNumber": 3306,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 309,
             "invoiceNumber": 3307,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 310,
             "invoiceNumber": 3308,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 311,
             "invoiceNumber": 3309,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 312,
             "invoiceNumber": 3310,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 313,
             "invoiceNumber": 3311,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          }
@@ -3757,131 +2639,88 @@
       "yearToDateAllInvoices": 8923,
       "yearToDateTotalInvoicedAmount": 5678,
       "lastYearTotalInvoicedAmount": 3365,
-      "turnover": [
-         {
-            "month": "Jun",
-            "amount": 22000
-         },
-
-         {
-            "month": "Jul",
-            "amount": 26500
-         },
-
-         {
-            "month": "Aug",
-            "amount": 28000
-         },
-
-         {
-            "month": "Sep",
-            "amount": 29000
-         },
-
-         {
-            "month": "Oct",
-            "amount": 29100
-         },
-
-         {
-            "month": "Nov",
-            "amount": 39000
-         }
-      ],
       "invoices": [
          {
-            "id": 314,
             "invoiceNumber": 3312,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 315,
             "invoiceNumber": 3313,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 316,
             "invoiceNumber": 3314,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 317,
             "invoiceNumber": 3315,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 318,
             "invoiceNumber": 3316,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 319,
             "invoiceNumber": 3317,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 320,
             "invoiceNumber": 3318,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 321,
             "invoiceNumber": 3319,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 322,
             "invoiceNumber": 3320,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 323,
             "invoiceNumber": 3321,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 324,
             "invoiceNumber": 3322,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 325,
             "invoiceNumber": 3323,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          }
@@ -3901,131 +2740,88 @@
       "yearToDateAllInvoices": 6325,
       "yearToDateTotalInvoicedAmount": 7456,
       "lastYearTotalInvoicedAmount": 8521,
-      "turnover": [
-         {
-            "month": "Jun",
-            "amount": 22000
-         },
-
-         {
-            "month": "Jul",
-            "amount": 26500
-         },
-
-         {
-            "month": "Aug",
-            "amount": 28000
-         },
-
-         {
-            "month": "Sep",
-            "amount": 29000
-         },
-
-         {
-            "month": "Oct",
-            "amount": 29100
-         },
-
-         {
-            "month": "Nov",
-            "amount": 39000
-         }
-      ],
       "invoices": [
          {
-            "id": 326,
             "invoiceNumber": 3324,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 327,
             "invoiceNumber": 3325,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 328,
             "invoiceNumber": 3326,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 329,
             "invoiceNumber": 3327,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 330,
             "invoiceNumber": 3328,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 331,
             "invoiceNumber": 3329,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 332,
             "invoiceNumber": 3330,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 333,
             "invoiceNumber": 3331,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 334,
             "invoiceNumber": 3332,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 335,
             "invoiceNumber": 3333,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 336,
             "invoiceNumber": 3334,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 337,
             "invoiceNumber": 3335,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          }
@@ -4045,131 +2841,88 @@
       "yearToDateAllInvoices": 1256,
       "yearToDateTotalInvoicedAmount": 5632,
       "lastYearTotalInvoicedAmount": 4256,
-      "turnover": [
-         {
-            "month": "Jun",
-            "amount": 22000
-         },
-
-         {
-            "month": "Jul",
-            "amount": 26500
-         },
-
-         {
-            "month": "Aug",
-            "amount": 28000
-         },
-
-         {
-            "month": "Sep",
-            "amount": 29000
-         },
-
-         {
-            "month": "Oct",
-            "amount": 29100
-         },
-
-         {
-            "month": "Nov",
-            "amount": 39000
-         }
-      ],
       "invoices": [
          {
-            "id": 338,
             "invoiceNumber": 3336,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 339,
             "invoiceNumber": 3337,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 340,
             "invoiceNumber": 3338,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 341,
             "invoiceNumber": 3339,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 342,
             "invoiceNumber": 3340,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 343,
             "invoiceNumber": 3341,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 344,
             "invoiceNumber": 3342,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 345,
             "invoiceNumber": 3343,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 346,
             "invoiceNumber": 3344,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 347,
             "invoiceNumber": 3345,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 348,
             "invoiceNumber": 3346,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 349,
             "invoiceNumber": 3347,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          }
@@ -4186,134 +2939,91 @@
       "contactPhone": "248-838-4226",
       "defaultDiscount": "18%",
       "unpaidAmountOfAllInvoices": 854,
-      "yearToDatePaidInvoices": 6532,
+      "yearToDateAllInvoices": 6532,
       "yearToDateTotalInvoicedAmount": 4328,
       "lastYearTotalInvoicedAmount": 5500,
-      "turnover": [
-         {
-            "month": "Jun",
-            "amount": 22000
-         },
-
-         {
-            "month": "Jul",
-            "amount": 26500
-         },
-
-         {
-            "month": "Aug",
-            "amount": 28000
-         },
-
-         {
-            "month": "Sep",
-            "amount": 29000
-         },
-
-         {
-            "month": "Oct",
-            "amount": 29100
-         },
-
-         {
-            "month": "Nov",
-            "amount": 39000
-         }
-      ],
       "invoices": [
          {
-            "id": 350,
             "invoiceNumber": 3348,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 351,
             "invoiceNumber": 3349,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 352,
             "invoiceNumber": 3350,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 353,
             "invoiceNumber": 3351,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 354,
             "invoiceNumber": 3352,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 355,
             "invoiceNumber": 3353,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 356,
             "invoiceNumber": 3354,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 357,
             "invoiceNumber": 3355,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 358,
             "invoiceNumber": 3356,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 359,
             "invoiceNumber": 3357,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 360,
             "invoiceNumber": 3358,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          },
          {
-            "id": 361,
             "invoiceNumber": 3359,
             "created": "11/09/22",
-            "paid": "yes",
+            "paid": true,
             "amount": 12314,
             "currency": "USD"
          }

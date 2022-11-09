@@ -24,7 +24,6 @@ export const customerEndpoints = [
          results = results.filter((x) => predicate(x.fullName));
       }
       results = results.slice((page - 1) * pageSize, page * pageSize);
-      console.log(customers);
       return res(ctx.json(results));
    }),
 
@@ -34,6 +33,21 @@ export const customerEndpoints = [
       let customer = customers.find((i) => i.id == id);
 
       return res(ctx.json(customer));
+   }),
+
+   rest.get('/api/customer/invoice/:id', (req, res, ctx) => {
+      let { id } = req.params;
+
+      let invoice;
+      for (let c of customers) {
+         for (let i of c.invoices) {
+            if (i.id == id) {
+               invoice = i;
+               break;
+            }
+         }
+      }
+      return res(ctx.json(invoice));
    }),
 
    rest.put('/api/customers/:id', (req, res, ctx) => {
@@ -46,14 +60,21 @@ export const customerEndpoints = [
       return res(ctx.json(customer));
    }),
 
-   /*  rest.put('/api/customer/invoices/:id', (req, res, ctx) => {
-      
-      let invoice = invoices.find((i) => i.id == id);
+   rest.put('/api/customer/invoices/:id', (req, res, ctx) => {
+      let { id } = req.params;
 
+      let invoice;
+      for (let c of customers) {
+         for (let i of c.invoices) {
+            if (i.id == id) {
+               invoice = i;
+               break;
+            }
+         }
+      }
       Object.assign(invoice, req.body);
-
       return res(ctx.json(invoice));
-   }), */
+   }),
 
    rest.post('/api/customer', (req, res, ctx) => {
       let customer = {

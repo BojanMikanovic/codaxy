@@ -4,42 +4,91 @@ import { GET, POST, PUT } from '../../../api/util/methods';
 
 export default {
    onInit() {
-      this.store.set('$page.add', this.store.get('$route.id') == 'new');
       this.store.init('$page.show', {
          customer: false,
          invoice: false,
-         editInvoice: false,
+         chart: true,
       });
 
+      this.store.init('$page.enableButton', true);
+
       this.store.init('$page.addInvoice', {});
-      this.store.init('$page.editInvoice', {});
 
-      this.reloadCustomer();
+      this.loadCustomer();
+      /* this.loadKPI(); */
    },
 
-   reloadCustomer() {
+   loadCustomer() {
       var id = this.store.get('$route.id');
-      if (id != 'new') {
-         var promise = GET(`customers/${id}`).then((data) => {
-            this.store.set('$page.customer', data);
-         });
-         this.setLoadingIndicator(promise);
-      } else {
-         this.store.set('$page.customer', {});
-      }
+
+      var promise = GET(`customers/${id}`).then((data) => {
+         this.store.set('$page.customer', data);
+      });
+      this.setLoadingIndicator(promise);
    },
 
-   /* reloadInvoice() {
-      var id = this.store.get('$route.id');
-      if (id != 'new') {
-         var promise = GET(`customer/invoices/${id}`).then((data) => {
-            this.store.set('$page.customer.invoice', data);
-         });
-         this.setLoadingIndicator(promise);
-      } else {
-         this.store.set('$page.customer.invoice', {});
+   /* async loadKPI() {
+      let { customer } = await this.store.get('$page');
+      let { invoices } = await this.store.get('$page.customer');
+
+      if (customer != 'undefined' && invoices != 'undefined') {
+         let yearToDatePaidInvoices = customer.invoices
+            .filter((i) => i.paid === 'yes')
+            .reduce((acc, p) => acc + p.amount, 0);
+         this.store.set('$page.yearToDatePaidInvoices', yearToDatePaidInvoices);
+
+         let unpaidAmountOfAllInvoices = customer.invoices
+            .filter((i) => i.paid === 'no')
+            .reduce((acc, u) => acc + u.amount, 0);
+         this.store.set('$page.unpaidAmountOfAllInvoices', unpaidAmountOfAllInvoices);
+
+         let yearToDateTotalInvoicedAmount = customer.invoices.reduce((acc, a) => acc + a.amount, 0);
+         this.store.set('$page.yearToDateTotalInvoicedAmount', yearToDateTotalInvoicedAmount);
       }
    }, */
+
+   onEditCustomer() {
+      this.store.set('$page.show.customer', true);
+   },
+
+   onSaveCustomer() {
+      const { customer } = this.store.get('$page');
+
+      PUT(`customers/${customer.id}`, customer);
+
+      this.store.set('$page.show.customer', false);
+   },
+
+   onAddInvoice() {
+      this.store.set('$page.show.invoice', true);
+      this.nextItemId = this.nextItemId || -1;
+      this.store.update('$page.customer.invoices', append, {
+         id: this.nextItemId--,
+      });
+   },
+
+   addNewInvoice() {
+      this.store.set('$page.show.invoice', false);
+      const { customer } = this.store.get('$page');
+
+      let newInvoice = this.store.get('$page.addInvoice');
+
+      let invoice = {
+         id: customer.id,
+         ...newInvoice,
+      };
+
+      POST('customer/invoices', invoice).then((res) => {
+         let invoices = res.invoices;
+         this.store.set('$page.customer.invoices', invoices);
+      });
+      this.store.set('$page.addInvoice', {});
+   },
+
+   onCloseModal() {
+      this.store.set('$page.show.customer', false);
+      this.store.set('$page.show.invoice', false);
+   },
 
    setSavingIndicator(p) {
       this.store.update('$page.saving', (saving) => (saving || 0) + 1);
@@ -61,62 +110,6 @@ export default {
          return x;
       }).catch((e) => {
          this.store.update('$page.loading', (loading) => loading - 1);
-      });
-   },
-
-   onQueryProducts(q) {
-      return GET('products');
-   },
-
-   onEditCustomer() {
-      this.store.set('$page.show.customer', true);
-   },
-
-   onSaveCustomer() {
-      const { customer } = this.store.get('$page');
-
-      const promise = PUT(`customers/${customer.id}`, customer);
-
-      this.store.set('$page.show.customer', false);
-   },
-
-   onSaveInvoice() {
-      let editInvoiceData = this.store.get('$page.editInvoice');
-      let id = this.store.get('$route.id');
-      const promise = PUT(`customer/invoices/${id}`, editInvoiceData);
-   },
-
-   onAddInvoice() {
-      this.store.set('$page.show.invoice', true);
-      this.nextItemId = this.nextItemId || -1;
-      this.store.update('$page.customer.invoices', append, {
-         id: this.nextItemId--,
-      });
-   },
-
-   onEditInvoice() {
-      this.store.set('$page.show.editInvoice', true);
-   },
-
-   onCloseModal() {
-      this.store.set('$page.show.customer', false);
-      this.store.set('$page.show.invoice', false);
-   },
-
-   addNewInvoice() {
-      this.store.set('$page.show.invoice', false);
-      const { customer } = this.store.get('$page');
-
-      let newInvoice = this.store.get('$page.addInvoice');
-
-      let invoice = {
-         id: customer.id,
-         ...newInvoice,
-      };
-
-      const promise = POST('customer/invoices', invoice).then((res) => {
-         let invoices = res.invoices;
-         this.store.set('$page.customer.invoices', invoices);
       });
    },
 };
