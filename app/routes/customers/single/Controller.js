@@ -10,8 +10,6 @@ export default {
          chart: true,
       });
 
-      this.store.init('$page.enableButton', true);
-
       this.store.init('$page.addInvoice', {});
 
       this.fetchCustomer().then(() => this.fetchKPI());
