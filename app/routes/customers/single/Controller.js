@@ -66,10 +66,6 @@ export default {
 
    onAddInvoice() {
       this.store.set('$page.show.invoice', true);
-      this.nextItemId = this.nextItemId || -1;
-      this.store.update('$page.customer.invoices', append, {
-         id: this.nextItemId--,
-      });
    },
 
    addNewInvoice() {
