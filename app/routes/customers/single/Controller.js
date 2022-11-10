@@ -47,6 +47,9 @@ export default {
 
       let lastYearTotalAmount = customer.lastYear.reduce((acc, curr) => acc + curr);
       this.store.set('$page.lastYearTotalAmount', lastYearTotalAmount);
+
+      let turnover = customer.invoices.slice(-6);
+      this.store.set('$page.turnover', turnover);
    },
 
    onEditCustomer() {

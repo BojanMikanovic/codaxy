@@ -54,12 +54,7 @@ export default () => (
                   label="Invoice Number"
                   required
                />
-               <TextField
-                  placeholder="date/month/year"
-                  value-bind="$page.addInvoice.created"
-                  label="Created"
-                  required
-               />
+               <TextField placeholder="month/day/year" value-bind="$page.addInvoice.created" label="Created" required />
                <LookupField
                   value-bind="$page.addInvoice.paid"
                   label="Paid"

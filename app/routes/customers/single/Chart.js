@@ -15,7 +15,7 @@ export default ({}) => (
                <Rectangle fill="white" />
                <Gridlines />
                <LineGraph
-                  data-bind="$page.customer.turnover"
+                  data-bind="$page.turnover"
                   name="Invoiced amount per month"
                   colorIndex={7}
                   xField="month"
