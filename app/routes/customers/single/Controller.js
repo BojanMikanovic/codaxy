@@ -8,7 +8,7 @@ export default {
          chart: true,
       });
 
-      this.store.set('$page.disable', true);
+      this.store.set('$page.saveButtonDisable', true);
 
       this.store.init('$page.addInvoice', {
          invoiceNumber: '',
@@ -28,7 +28,7 @@ export default {
             this.store.get('$page.addInvoice.currency') !== '' &&
             this.store.get('$page.addInvoice.amount') !== ''
          ) {
-            this.store.set('$page.disable', false);
+            this.store.set('$page.saveButtonDisable', false);
          }
       });
    },
@@ -39,7 +39,7 @@ export default {
       var promise = GET(`customers/${id}`).then((data) => {
          this.store.set('$page.customer', data);
       });
-      this.setLoadingIndicator(promise);
+
       return promise;
    },
 
@@ -84,9 +84,7 @@ export default {
       this.store.set('$page.show.invoice', true);
    },
 
-   addNewInvoice() {
-      this.store.set('$page.disable', true);
-      this.store.set('$page.show.invoice', false);
+   onAddNewInvoice() {
       const { customer } = this.store.get('$page');
 
       let newInvoice = this.store.get('$page.addInvoice');
@@ -107,33 +105,12 @@ export default {
          currency: '',
          amount: '',
       });
+      this.store.set('$page.saveButtonDisable', true);
+      this.store.set('$page.show.invoice', false);
    },
 
    onCloseModal() {
       this.store.set('$page.show.customer', false);
       this.store.set('$page.show.invoice', false);
-   },
-
-   setSavingIndicator(p) {
-      this.store.update('$page.saving', (saving) => (saving || 0) + 1);
-      return p
-         .then((x) => {
-            this.store.update('$page.saving', (saving) => saving - 1);
-            return x;
-         })
-         .catch((e) => {
-            this.store.update('$page.saving', (saving) => saving - 1);
-            throw e;
-         });
-   },
-
-   setLoadingIndicator(p) {
-      this.store.update('$page.loading', (loading) => (loading || 0) + 1);
-      p.then((x) => {
-         this.store.update('$page.loading', (loading) => loading - 1);
-         return x;
-      }).catch((e) => {
-         this.store.update('$page.loading', (loading) => loading - 1);
-      });
    },
 };

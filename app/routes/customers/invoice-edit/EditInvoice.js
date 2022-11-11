@@ -27,7 +27,7 @@ export default () => (
             <div class="flex justify-end p-3">
                <Button mod="primary" class="mx-8 " text="Save" onClick="onSaveInvoice" icon="plus" />
 
-               <Button href="~/customers" text="Cancel" />
+               <Button text="Cancel" />
             </div>
          </div>
       </div>

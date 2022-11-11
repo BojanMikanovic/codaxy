@@ -87,11 +87,11 @@ export default () => (
 
                <div class="flex justify-end p-3">
                   <Button
-                     disabled-expr="{$page.disable}"
+                     disabled-expr="{$page.saveButtonDisable}"
                      mod="primary"
                      class="mx-8"
                      text="Save"
-                     onClick="addNewInvoice"
+                     onClick="onAddNewInvoice"
                      icon="plus"
                   />
 

@@ -34,16 +34,5 @@ export default {
          this.store.set('$page.customers', data.slice(0, pageSize));
          this.store.set('$page.pageCount', Math.max(pageCount, page + (data.length == pageSize ? 1 : 0)));
       });
-
-      this.setLoadingIndicator(promise);
-   },
-
-   setLoadingIndicator(p) {
-      this.store.update('$page.loading', (loading) => (loading || 0) + 1);
-      p.then(() => {
-         this.store.update('$page.loading', (loading) => loading - 1);
-      }).catch(() => {
-         this.store.update('$page.loading', (loading) => loading - 1);
-      });
    },
 };
