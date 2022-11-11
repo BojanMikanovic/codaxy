@@ -35,7 +35,7 @@ export default class extends Controller {
 
       this.addTrigger('total-calc', ['$page.invoice.items'], (items) => {
          var sums = {
-            totalAmount: 0,            
+            totalAmount: 0,
             discountAmount: 0,
             regularAmount: 0,
          };
@@ -61,12 +61,16 @@ export default class extends Controller {
          });
          this.setLoadingIndicator(promise);
       } else {
-         this.store.set('$page.invoice', { date: Date.now(), status: 'unpaid', items: [], totalAmount: 0,            
-         discountAmount: 0,
-         regularAmount: 0,
+         this.store.set('$page.invoice', {
+            date: Date.now(),
+            status: 'unpaid',
+            items: [],
+            totalAmount: 0,
+            discountAmount: 0,
+            regularAmount: 0,
          });
       }
-    }
+   }
 
    setSavingIndicator(p) {
       this.store.update('$page.saving', (saving) => (saving || 0) + 1);

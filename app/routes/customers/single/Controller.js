@@ -1,5 +1,3 @@
-import { append } from 'cx/data';
-
 import { GET, POST, PUT } from '../../../api/util/methods';
 
 export default {
@@ -10,9 +8,29 @@ export default {
          chart: true,
       });
 
-      this.store.init('$page.addInvoice', {});
+      this.store.set('$page.disable', true);
 
-      this.fetchCustomer().then(() => this.fetchKPI());
+      this.store.init('$page.addInvoice', {
+         invoiceNumber: '',
+         created: '',
+         paid: '',
+         currency: '',
+         amount: '',
+      });
+
+      this.fetchCustomer().then(() => this.customerData());
+
+      this.addTrigger('disable', ['$page.addInvoice'], () => {
+         if (
+            this.store.get('$page.addInvoice.invoiceNumber') !== '' &&
+            this.store.get('$page.addInvoice.created') !== '' &&
+            this.store.get('$page.addInvoice.paid') !== '' &&
+            this.store.get('$page.addInvoice.currency') !== '' &&
+            this.store.get('$page.addInvoice.amount') !== ''
+         ) {
+            this.store.set('$page.disable', false);
+         }
+      });
    },
 
    fetchCustomer() {
@@ -25,7 +43,7 @@ export default {
       return promise;
    },
 
-   fetchKPI() {
+   customerData() {
       let { customer } = this.store.get('$page');
       if (customer === 'undefined') {
          return;
@@ -67,6 +85,7 @@ export default {
    },
 
    addNewInvoice() {
+      this.store.set('$page.disable', true);
       this.store.set('$page.show.invoice', false);
       const { customer } = this.store.get('$page');
 
@@ -81,7 +100,13 @@ export default {
          let invoices = res.invoices;
          this.store.set('$page.customer.invoices', invoices);
       });
-      this.store.set('$page.addInvoice', {});
+      this.store.set('$page.addInvoice', {
+         invoiceNumber: '',
+         created: '',
+         paid: '',
+         currency: '',
+         amount: '',
+      });
    },
 
    onCloseModal() {

@@ -1,5 +1,4 @@
 import { GET, PUT } from '../../../api/util/methods';
-import { History } from 'cx/ui';
 
 export default {
    onInit() {
@@ -28,8 +27,6 @@ export default {
          .catch((e) => {
             console.log(e);
          });
-      const history = History();
-      history.pop();
    },
 
    setLoadingIndicator(p) {
