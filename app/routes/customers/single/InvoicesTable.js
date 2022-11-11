@@ -51,6 +51,7 @@ export default () => (
                   placeholder="please enter 4-digit number"
                   value-bind="$page.addInvoice.invoiceNumber"
                   label="Invoice Number"
+                  autoFocus-expr="!{$page.addInvoice.invoiceNumber}"
                   required
                   asterisk
                />
