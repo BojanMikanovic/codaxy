@@ -1,6 +1,6 @@
 import Controller from './Controller';
 import { LabelsLeftLayout } from 'cx/ui';
-import { Button, Label, TextField, Link, Icon } from 'cx/widgets';
+import { Button, Label, TextField, Link, Icon, NumberField } from 'cx/widgets';
 
 export default () => (
    <cx>
@@ -21,7 +21,7 @@ export default () => (
                <TextField label="Invoice Number" value:bind="$page.editInvoice.invoiceNumber" />
                <TextField label="Created" value:bind="$page.editInvoice.created" />
                <TextField label="Paid" value:bind="$page.editInvoice.paid" />
-               <TextField label="Amount" value:bind="$page.editInvoice.amount" />
+               <NumberField label="Amount" value:bind="$page.editInvoice.amount" />
                <TextField label="Currency" value:bind="$page.editInvoice.currency" />
             </div>
             <div class="flex justify-end p-3">

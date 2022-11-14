@@ -83,7 +83,7 @@ export default () => (
                   asterisk
                />
                <TextField value-bind="$page.customer.defaultDiscount" label="Discount" required asterisk />
-               <TextField value-bind="$page.addInvoice.amount" label="Amount" required asterisk />
+               <NumberField value-bind="$page.addInvoice.amount" label="Amount" required asterisk />
 
                <div class="flex justify-end p-3">
                   <Button

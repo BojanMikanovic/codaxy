@@ -1,4 +1,5 @@
 import { GET, POST, PUT } from '../../../api/util/methods';
+import { append } from 'cx/data';
 
 export default {
    onInit() {
@@ -15,7 +16,7 @@ export default {
          created: '',
          paid: '',
          currency: '',
-         amount: '',
+         // amount: null,
       });
 
       this.fetchCustomer().then(() => this.customerData());
@@ -25,8 +26,8 @@ export default {
             this.store.get('$page.addInvoice.invoiceNumber') !== '' &&
             this.store.get('$page.addInvoice.created') !== '' &&
             this.store.get('$page.addInvoice.paid') !== '' &&
-            this.store.get('$page.addInvoice.currency') !== '' &&
-            this.store.get('$page.addInvoice.amount') !== ''
+            this.store.get('$page.addInvoice.currency') !== ''
+            // this.store.get('$page.addInvoice.amount') !== null
          ) {
             this.store.set('$page.saveButtonDisable', false);
          }
@@ -82,6 +83,10 @@ export default {
 
    onAddInvoice() {
       this.store.set('$page.show.invoice', true);
+      this.nextItemId = this.nextItemId || -1;
+      this.store.update('$page.customer.invoices', append, {
+         id: this.nextItemId--,
+      });
    },
 
    onAddNewInvoice() {
