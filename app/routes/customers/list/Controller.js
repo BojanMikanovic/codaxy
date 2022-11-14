@@ -2,7 +2,7 @@ import { GET } from '../../../api/util/methods';
 
 export default {
    onInit() {
-      this.store.init('$page.pageSize', 10);
+      this.store.init('$page.pageSize', 20);
 
       this.store.init('$page.filter', {
          query: null,

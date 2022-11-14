@@ -6,10 +6,9 @@ export default () => (
    <cx>
       <div controller={Controller}>
          <div class="p-10 ">
-            <Label class="text-2xl p-5 text-blue-600">List of invoices</Label>
+            <Label class="text-3xl p-5 text-blue-600">List of invoices</Label>
 
             <Grid
-               class="text-black"
                records-bind="$page.customer.invoices"
                columns={[
                   {
@@ -25,10 +24,11 @@ export default () => (
                         </cx>
                      ),
                      sortable: true,
+                     width: 150,
                   },
-                  { header: 'Created', field: 'created', sortable: true },
-                  { header: 'Paid', field: 'paid', sortable: true },
-                  { header: 'Amount', field: 'amount', sortable: true },
+                  { header: 'Created', field: 'created', sortable: true, align: 'center' },
+                  { header: 'Paid', field: 'paid', sortable: true, align: 'center' },
+                  { header: 'Amount', field: 'amount', sortable: true, align: 'center' },
                   { header: 'Currency', field: 'currency', sortable: true, align: 'right' },
                ]}
             />
@@ -37,6 +37,7 @@ export default () => (
          <div class="flex justify-end p-3">
             <Button mod="primary" class="mx-8" text="Create new invoice" onClick="onAddInvoice" icon="plus" />
          </div>
+
          <ValidationGroup>
             <Window
                visible-bind="$page.show.invoice"

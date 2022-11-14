@@ -18,8 +18,8 @@ export default (
                </Link>
             </div>
 
-            <div class="text-center text-xl mb-10 text-blue-500">Details of the selected customer</div>
-            <div class="flex justify-around">
+            <div class="text-center text-2xl mb-10 text-blue-500">Details of the selected customer</div>
+            <div class="flex justify-between m-10 py-10 border rounded w-[1050px]">
                <div>
                   <div layout={LabelsLeftLayout} class="widget ml-20 ">
                      <TextField label="Full name" value:bind="$page.customer.fullName" readOnly />
@@ -65,13 +65,13 @@ export default (
                </div>
             </div>
 
-            <div class="grid grid-cols-4 p-8 gap-8 ml-2 mt-2" style="grid-template-rows: auto; width: 1100px">
+            <div class="grid grid-cols-4 m-10 gap-8 " style="grid-template-rows: auto; width: 1050px">
                <KPI
                   title="Unpaid Amount"
                   value:bind="$page.unpaidAmountOfAllInvoices"
                   unit="USD"
                   icon="credit-card"
-                  iconClass="bg-red-500 text-white"
+                  iconClass="bg-amber-400 text-white"
                   change={0.012}
                />
                <KPI
@@ -79,7 +79,7 @@ export default (
                   value:bind="$page.yearToDatePaidInvoices"
                   unit="USD"
                   icon="credit-card"
-                  iconClass="bg-blue-300 text-white"
+                  iconClass="bg-green-400 text-white"
                   change={0.082}
                />
                <KPI
@@ -99,7 +99,7 @@ export default (
                   change={0.011}
                />
             </div>
-            <div class="m-10 bg-white border rounded w-[900px] text-gray-900 relative">
+            <div class="m-10 bg-white border rounded w-[1050px] ">
                <InvoicesTable />
             </div>
          </main>

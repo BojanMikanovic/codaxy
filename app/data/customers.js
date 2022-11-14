@@ -16,7 +16,7 @@ export function getRandomCustomer() {
 export const customerEndpoints = [
    rest.get('/api/customers', (req, res, ctx) => {
       let query = req.url.searchParams.get('query');
-      let pageSize = req.url.searchParams.get('pageSize') || 10;
+      let pageSize = req.url.searchParams.get('pageSize') || 20;
       let page = req.url.searchParams.get('page') || 1;
       let results = [...customers];
       if (query) {

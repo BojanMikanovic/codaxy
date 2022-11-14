@@ -1,9 +1,9 @@
 import { Svg, Rectangle } from 'cx/svg';
 import { CategoryAxis, Chart, Gridlines, Legend, LineGraph, NumericAxis } from 'cx/charts';
 
-export default ({}) => (
+export default () => (
    <cx>
-      <div class="widgets">
+      <div>
          <Svg style="width:500px;height:400px" margin="10 20 30 50">
             <Chart
                offset="20 -10 -40 40"
@@ -25,7 +25,9 @@ export default ({}) => (
                />
             </Chart>
          </Svg>
-         <Legend vertical />
+         <div>
+            <Legend vertical class="ml-20 mt-6 text-xl" />
+         </div>
       </div>
    </cx>
 );

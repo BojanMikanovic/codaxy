@@ -13,7 +13,7 @@ export const KPI = ({ title, value, unit, icon, iconClass, change, className }) 
             <div
                class="mt-2  flex items-center"
                className={{
-                  'text-blue-400': { expr: '{$change} >= 0' },
+                  'text-green-400': { expr: '{$change} >= 0' },
                   'text-red-600': { expr: '{$change} < 0' },
                }}
             >
