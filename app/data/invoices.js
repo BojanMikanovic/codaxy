@@ -1,6 +1,6 @@
 import { rest } from 'msw';
 import { getComparer } from 'cx/data';
-import { getRandomCustomer } from './customers';
+
 import { getRandomProduct } from './products';
 import { getSearchQueryPredicate } from 'cx/util';
 
@@ -31,7 +31,7 @@ const invoices = Array.from({ length: 2000 }, (_, index) => {
    return {
       id: ++lastId,
       invoiceNo: 10000 + lastId,
-      customer: getRandomCustomer(),
+
       status: Math.random() > 0.1 ? 'paid' : 'unpaid',
       items,
       date,

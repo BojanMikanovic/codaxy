@@ -4,10 +4,6 @@ import { getSearchQueryPredicate } from 'cx/util';
 
 import customers from './customers.json';
 
-export function getRandomCustomer() {
-   return randomElement(customers);
-}
-
 let lastId = 400;
 
 export const customerEndpoints = [
