@@ -1,5 +1,4 @@
 import { GET, POST, PUT } from '../../../api/util/methods';
-import { append } from 'cx/data';
 
 export default {
    onInit() {
@@ -12,7 +11,7 @@ export default {
       this.store.set('$page.saveButtonDisable', true);
 
       this.store.init('$page.addInvoice', {
-         invoiceNumber: '',
+         invoiceNumber: null,
          month: '',
          created: '',
          paid: '',
@@ -24,7 +23,8 @@ export default {
 
       this.addTrigger('disable', ['$page.addInvoice'], () => {
          if (
-            this.store.get('$page.addInvoice.invoiceNumber') !== '' &&
+            this.store.get('$page.addInvoice.invoiceNumber') !== null &&
+            this.store.get('$page.addInvoice.amount') !== null &&
             this.store.get('$page.addInvoice.month') !== '' &&
             this.store.get('$page.addInvoice.created') !== '' &&
             this.store.get('$page.addInvoice.paid') !== '' &&
@@ -92,7 +92,7 @@ export default {
       let newInvoice = this.store.get('$page.addInvoice');
 
       let invoice = {
-         id: customer.id,
+         customerId: customer.id,
          ...newInvoice,
       };
 
@@ -102,8 +102,8 @@ export default {
       });
 
       this.store.set('$page.addInvoice', {
+         invoiceNumber: null,
          month: '',
-         invoiceNumber: '',
          created: '',
          paid: '',
          currency: '',

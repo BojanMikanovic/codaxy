@@ -1,7 +1,7 @@
 import { computable } from 'cx/ui';
 import { DataProxy, Icon } from 'cx/widgets';
 
-export const KPI = ({ title, value, unit, icon, iconClass, change, className }) => (
+export default ({ title, value, unit, icon, iconClass, change, className }) => (
    <cx>
       <div class="flex-col bg-zinc-100 border p-6 rounded justify-center " className={className}>
          <Icon name={icon} class="p-2 rounded-full w-10 h-10 justify-center" className={iconClass} />

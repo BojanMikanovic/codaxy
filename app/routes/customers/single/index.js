@@ -3,7 +3,7 @@ import { LabelsLeftLayout } from 'cx/ui';
 import { Icon, Link, TextField, Button, Window } from 'cx/widgets';
 import InvoicesTable from './InvoicesTable';
 import Chart from './Chart';
-import { KPI } from './KPI';
+import KPI from './KPI';
 
 export default (
    <cx>

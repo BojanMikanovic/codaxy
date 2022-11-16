@@ -8,6 +8,8 @@ export function getRandomCustomer() {
    return randomElement(customers);
 }
 
+let lastId = 400;
+
 export const customerEndpoints = [
    rest.get('/api/customers', (req, res, ctx) => {
       let query = req.url.searchParams.get('query');
@@ -72,12 +74,20 @@ export const customerEndpoints = [
    }),
 
    rest.post('/api/customer/invoices', (req, res, ctx) => {
-      let { id } = req.body;
+      let { customerId } = req.body;
 
-      let customer = customers.find((i) => i.id == id);
+      let customer = customers.find((i) => i.id == customerId);
+
+      let { month, created, amount, invoiceNumber, paid, currency } = req.body;
 
       let invoice = {
-         ...req.body,
+         month,
+         created,
+         amount,
+         invoiceNumber,
+         paid,
+         currency,
+         id: ++lastId,
       };
 
       customer.invoices.push(invoice);

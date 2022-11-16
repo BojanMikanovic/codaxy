@@ -49,7 +49,7 @@ export default () => (
                style={{ width: '450px', padding: '20px' }}
                layout={LabelsLeftLayout}
             >
-               <TextField
+               <NumberField
                   placeholder="please enter number > 4000"
                   value-bind="$page.addInvoice.invoiceNumber"
                   label="Invoice Number"

@@ -17,6 +17,6 @@ export default {
       var id = this.store.get('$route.id');
       const invoice = this.store.get('$page.editInvoice');
 
-      const promise = PUT(`customer/invoices/${id}`, invoice);
+      PUT(`customer/invoices/${id}`, invoice);
    },
 };
