@@ -57,6 +57,7 @@ export default () => (
                   required
                   asterisk
                />
+               <NumberField value-bind="$page.addInvoice.amount" label="Amount" required asterisk />
                <TextField placeholder="Jan,Feb,Mar..." value-bind="$page.addInvoice.month" label="Current month" />
                <TextField
                   placeholder="month/day/year"
@@ -86,7 +87,6 @@ export default () => (
                   asterisk
                />
                <TextField value-bind="$page.customer.defaultDiscount" label="Discount" required asterisk />
-               <NumberField value-bind="$page.addInvoice.amount" label="Amount" required asterisk />
 
                <div class="flex justify-end p-3">
                   <Button
