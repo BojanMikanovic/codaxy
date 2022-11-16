@@ -26,6 +26,7 @@ export default () => (
                      sortable: true,
                      width: 150,
                   },
+                  { header: 'Month', field: 'month', sortable: true, align: 'center' },
                   { header: 'Created', field: 'created', sortable: true, align: 'center' },
                   { header: 'Paid', field: 'paid', sortable: true, align: 'center' },
                   { header: 'Amount', field: 'amount', sortable: true, align: 'center' },
@@ -49,13 +50,14 @@ export default () => (
                layout={LabelsLeftLayout}
             >
                <TextField
-                  placeholder="please enter 4-digit number"
+                  placeholder="please enter number > 4000"
                   value-bind="$page.addInvoice.invoiceNumber"
                   label="Invoice Number"
                   autoFocus-expr="!{$page.addInvoice.invoiceNumber}"
                   required
                   asterisk
                />
+               <TextField placeholder="Jan,Feb,Mar..." value-bind="$page.addInvoice.month" label="Current month" />
                <TextField
                   placeholder="month/day/year"
                   value-bind="$page.addInvoice.created"

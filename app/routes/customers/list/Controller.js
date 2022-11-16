@@ -30,7 +30,7 @@ export default {
       var pageSize = this.store.get('$page.pageSize');
       var page = this.store.get('$page.page');
       var pageCount = this.store.get('$page.pageCount');
-      var promise = GET('customers', { query: { ...filter, page, pageSize } }).then((data) => {
+      GET('customers', { query: { ...filter, page, pageSize } }).then((data) => {
          this.store.set('$page.customers', data.slice(0, pageSize));
          this.store.set('$page.pageCount', Math.max(pageCount, page + (data.length == pageSize ? 1 : 0)));
       });

@@ -15,7 +15,7 @@ worker
       onUnhandledRequest: 'warn',
    })
    .then(() => {
-      console.log('MOCK API WORKER SUCCESSFULLY STARED.');
+      console.log('MOCK API WORKER SUCCESSFULLY STARTED.');
    })
    .catch((err) => {
       console.error('MOCK API WORKER FAILED TO START.', err);

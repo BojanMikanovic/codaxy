@@ -4,11 +4,6 @@ import { getSearchQueryPredicate } from 'cx/util';
 
 import customers from './customers.json';
 
-let lastId = 0;
-customers.forEach((customer) => {
-   customer.id = ++lastId;
-});
-
 export function getRandomCustomer() {
    return randomElement(customers);
 }
@@ -74,17 +69,6 @@ export const customerEndpoints = [
       }
       Object.assign(invoice, req.body);
       return res(ctx.json(invoice));
-   }),
-
-   rest.post('/api/customer', (req, res, ctx) => {
-      let customer = {
-         ...req.body,
-         id: ++lastId,
-      };
-
-      customers.push(customer);
-
-      return res(ctx.json(customer));
    }),
 
    rest.post('/api/customer/invoices', (req, res, ctx) => {

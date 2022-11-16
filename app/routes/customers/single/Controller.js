@@ -13,10 +13,11 @@ export default {
 
       this.store.init('$page.addInvoice', {
          invoiceNumber: '',
+         month: '',
          created: '',
          paid: '',
          currency: '',
-         // amount: null,
+         amount: null,
       });
 
       this.fetchCustomer().then(() => this.customerData());
@@ -24,10 +25,10 @@ export default {
       this.addTrigger('disable', ['$page.addInvoice'], () => {
          if (
             this.store.get('$page.addInvoice.invoiceNumber') !== '' &&
+            this.store.get('$page.addInvoice.month') !== '' &&
             this.store.get('$page.addInvoice.created') !== '' &&
             this.store.get('$page.addInvoice.paid') !== '' &&
             this.store.get('$page.addInvoice.currency') !== ''
-            // this.store.get('$page.addInvoice.amount') !== null
          ) {
             this.store.set('$page.saveButtonDisable', false);
          }
@@ -104,14 +105,16 @@ export default {
          this.store.set('$page.customer.invoices', invoices);
       });
       this.store.set('$page.addInvoice', {
+         month: '',
          invoiceNumber: '',
          created: '',
          paid: '',
          currency: '',
-         amount: '',
+         amount: null,
       });
       this.store.set('$page.saveButtonDisable', true);
       this.store.set('$page.show.invoice', false);
+      this.fetchCustomer().then(() => this.customerData());
    },
 
    onCloseModal() {
