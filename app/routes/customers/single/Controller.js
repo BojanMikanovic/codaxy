@@ -84,10 +84,6 @@ export default {
 
    onAddInvoice() {
       this.store.set('$page.show.invoice', true);
-      this.nextItemId = this.nextItemId || -1;
-      this.store.update('$page.customer.invoices', append, {
-         id: this.nextItemId--,
-      });
    },
 
    onAddNewInvoice() {
@@ -104,6 +100,7 @@ export default {
          let invoices = res.invoices;
          this.store.set('$page.customer.invoices', invoices);
       });
+
       this.store.set('$page.addInvoice', {
          month: '',
          invoiceNumber: '',
@@ -114,7 +111,6 @@ export default {
       });
       this.store.set('$page.saveButtonDisable', true);
       this.store.set('$page.show.invoice', false);
-      this.fetchCustomer().then(() => this.customerData());
    },
 
    onCloseModal() {
